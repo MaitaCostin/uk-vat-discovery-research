@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 from pathlib import Path
 from typing import Any
@@ -9,6 +10,27 @@ from typing import Any
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_INPUT = PROJECT_ROOT / "data" / "raw" / "051168-2026_release.json"
+def parse_args() -> argparse.Namespace:
+    """Read command-line arguments."""
+    parser = argparse.ArgumentParser(
+        description=(
+            "Inspect unique awarded suppliers in a Find a Tender "
+            "OCDS release package."
+        )
+    )
+
+    parser.add_argument(
+        "input_file",
+        nargs="?",
+        type=Path,
+        default=DEFAULT_INPUT,
+        help=(
+            "Path to the OCDS release JSON file. "
+            "Defaults to the Formation Design & Build test release."
+        ),
+    )
+
+    return parser.parse_args()
 
 
 def load_json(file_path: Path) -> dict[str, Any]:
@@ -151,7 +173,15 @@ def inspect_release_package(package: dict[str, Any]) -> None:
 
 def main() -> None:
     """Run the OCDS inspection."""
-    package = load_json(DEFAULT_INPUT)
+    args = parse_args()
+    input_file: Path = args.input_file
+
+    if not input_file.is_absolute():
+        input_file = (PROJECT_ROOT / input_file).resolve()
+
+    print(f"Input file: {input_file}")
+
+    package = load_json(input_file)
     inspect_release_package(package)
 
 
