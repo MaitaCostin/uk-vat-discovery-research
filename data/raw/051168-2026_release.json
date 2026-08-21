@@ -1,0 +1,278 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/051168-2026",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+    ],
+    "publishedDate": "2026-06-01T09:09:48+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "id": "051168-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-06-01T09:09:48+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-052513",
+            "parties": [
+                {
+                    "name": "Tower Hamlets",
+                    "id": "GB-PPON-PQBL-2673-MVYG",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PQBL-2673-MVYG"
+                    },
+                    "address": {
+                        "streetAddress": "New Town Hall",
+                        "locality": "London",
+                        "postalCode": "E1 1BJ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI42"
+                    },
+                    "contactPoint": {
+                        "name": "Morgan Hughes",
+                        "email": "Morgan.Hughes@towerhamlets.gov.uk",
+                        "telephone": "+44 2073644099"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://www.towerhamlets.gov.uk",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Formation Design & Build Ltd",
+                    "id": "GB-PPON-PXVL-8974-LQTM",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PXVL-8974-LQTM"
+                    },
+                    "address": {
+                        "streetAddress": "Unit 1 38 Wembley Hill Road",
+                        "locality": "Wembly",
+                        "postalCode": "HA9 8FJ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI72"
+                    },
+                    "contactPoint": {
+                        "email": "tenders@formationdnb.co.uk"
+                    },
+                    "roles": [
+                        "supplier",
+                        "tenderer"
+                    ],
+                    "details": {
+                        "scale": "large",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    },
+                    "control": {
+                        "description": "Formation D&B Holdings Limited\nParent Company\nOakwood House, 414-422 Hackney Road\nLondon\nE2 7SY"
+                    }
+                },
+                {
+                    "name": "Thomas Sinden Limited",
+                    "id": "GB-PPON-PTYN-6256-NGVH",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PTYN-6256-NGVH"
+                    },
+                    "address": {
+                        "streetAddress": "137-145 Church Road",
+                        "locality": "Romford",
+                        "postalCode": "RM3 0SH",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI52"
+                    },
+                    "roles": [
+                        "tenderer"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PQBL-2673-MVYG",
+                "name": "Tower Hamlets"
+            },
+            "tender": {
+                "id": "HAR6073",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "HAR6073 Caxton Grove Main Works Tender",
+                "description": "The London borough of Tower Hamlets is seeking to procure a Contract for the Construction of a new part-seven, part-nine storey residential building comprising 36 homes - all to be delivered as affordable housing in line with local and national Planning Policy and guidance, and mayoral priorities. The development aims to provide high quality, contemporary housing, fit for the current and future housing environment. The existing community centre will be replaced as part of the proposals with a new, larger facility incorporated in the same location within the envelope of the new building, which will provide modern spaces that will be better suited to the requirements of existing and new user groups",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Open procedure",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete"
+                    }
+                ]
+            },
+            "bids": {
+                "details": [
+                    {
+                        "id": "1",
+                        "status": "valid",
+                        "tenderers": [
+                            {
+                                "id": "GB-PPON-PXVL-8974-LQTM",
+                                "name": "Formation Design & Build Ltd"
+                            }
+                        ],
+                        "relatedLots": [
+                            "1"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "status": "valid",
+                        "tenderers": [
+                            {
+                                "id": "GB-PPON-PTYN-6256-NGVH",
+                                "name": "Thomas Sinden Limited"
+                            }
+                        ],
+                        "relatedLots": [
+                            "1"
+                        ]
+                    }
+                ],
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 2,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "finalStageBids",
+                        "value": 2,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "smeFinalStageBids",
+                        "value": 1,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "HAR6073 Caxton Grove Main Works",
+                    "status": "pending",
+                    "date": "2026-05-29T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 20400000.00,
+                        "amount": 17000000.00,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "works",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PXVL-8974-LQTM",
+                            "name": "Formation Design & Build Ltd"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "45000000",
+                                    "description": "Construction work"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKI",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "standstillPeriod": {
+                        "endDate": "2026-06-10T23:59:59+01:00"
+                    },
+                    "contractPeriod": {
+                        "startDate": "2026-06-24T00:00:00+01:00",
+                        "endDate": "2028-12-23T23:59:59+00:00"
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "051168-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/051168-2026",
+                            "datePublished": "2026-06-01T09:09:48+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-06-01T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-06-24T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}
