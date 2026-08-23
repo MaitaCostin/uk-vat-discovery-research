@@ -60,6 +60,7 @@ for json_file in json_files:
                 party = parties.get(supplier_id, supplier)
                 address = party.get("address", {})
                 contact = party.get("contactPoint", {})
+                details = party.get("details", {})
 
                 address_text = "; ".join(
                     str(value)
@@ -90,7 +91,7 @@ for json_file in json_files:
                             "GB-COH",
                         ),
                         "supplier_address": address_text,
-                        "website": contact.get("url", ""),
+                        "website": details.get("url", "") or contact.get("url", ""),
                         "source_file": json_file.name,
                     }
                 )
