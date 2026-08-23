@@ -1,0 +1,534 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061663-2026?limit=100&updatedTo=2026-08-23T11:28:58",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T12:12:17+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "buyerID": [],
+            "id": "061663-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T12:12:17+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-052491",
+            "parties": [
+                {
+                    "name": "Isle of Wight Council",
+                    "id": "GB-PPON-PGYX-7387-YJXG",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PGYX-7387-YJXG"
+                    },
+                    "address": {
+                        "streetAddress": "County Hall",
+                        "locality": "Newport",
+                        "postalCode": "PO30 1UD",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKJ34"
+                    },
+                    "contactPoint": {
+                        "email": "procurement@iow.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "AIK MANAGEMENT LTD",
+                    "id": "GB-COH-14830551",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "14830551"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PTNB-4472-VVZX"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "167-169 Great Portland Street",
+                        "locality": "London",
+                        "postalCode": "W1W 5PF",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI32"
+                    },
+                    "roles": [
+                        "tenderer"
+                    ],
+                    "details": {
+                        "url": "https://www.aikmanagement.co.uk/",
+                        "scale": "sme",
+                        "vcse": false
+                    }
+                },
+                {
+                    "name": "GO SOUTH COAST LIMITED",
+                    "id": "GB-COH-03949597",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "03949597"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PBYL-1316-QQHJ"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "3rd Floor 41-51 Grey Street",
+                        "locality": "Newcastle Upon Tyne",
+                        "postalCode": "NE1 6EE",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKC22"
+                    },
+                    "contactPoint": {
+                        "email": "julian.barnes@gosouthcoast.co.uk"
+                    },
+                    "roles": [
+                        "supplier",
+                        "tenderer"
+                    ],
+                    "details": {
+                        "url": "https://gosouthcoast.co.uk/",
+                        "scale": "large",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PGYX-7387-YJXG",
+                "name": "Isle of Wight Council"
+            },
+            "tender": {
+                "id": "DN776024",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Home to School Transport Bus and Coach Services on the Isle of Wight (2026)",
+                "description": "Home to School Transport Bus and Coach Services on the Isle of Wight (2026). Relating to the provision of home to school bus and coach services for mainstream and SEN which is a statutory function for the Local Authority. In October 2025, the Authority engaged with potential suppliers to seek views and feedback to the information provided and questionnaire.\nThis was intended to be used to assist the Authority on deciding the next steps for the procurement of Home to School Transport Bus and Coach Services on the Isle of Wight (2026) Procurement identifier (OCID): ocds-h6vhtk-052491.\nNow (March 2026) we are in a position to issue the open tender opportunity.\nPlease note that the overall whole life value is expected to be in the region of estimate of £9,645,650. This had to be set out as £9,700,000 in this notice (rounded up) and the value splits per lot are estimates only.",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Open procedure",
+                "lots": [
+                    {
+                        "id": "6",
+                        "status": "complete",
+                        "description": null
+                    },
+                    {
+                        "id": "1b",
+                        "status": "complete",
+                        "description": null
+                    },
+                    {
+                        "id": "1c",
+                        "status": "complete",
+                        "description": null
+                    },
+                    {
+                        "id": "1d",
+                        "status": "complete",
+                        "description": null
+                    },
+                    {
+                        "id": "1e",
+                        "status": "complete",
+                        "description": null
+                    },
+                    {
+                        "id": "2a",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "bids": {
+                "details": [
+                    {
+                        "id": "1",
+                        "status": "valid",
+                        "tenderers": [
+                            {
+                                "id": "GB-COH-03949597",
+                                "name": "GO SOUTH COAST LIMITED"
+                            }
+                        ],
+                        "relatedLots": [
+                            "6",
+                            "1b",
+                            "1c",
+                            "1d",
+                            "1e",
+                            "2a"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "status": "valid",
+                        "tenderers": [
+                            {
+                                "id": "GB-COH-14830551",
+                                "name": "AIK MANAGEMENT LTD"
+                            }
+                        ],
+                        "relatedLots": [
+                            "2a"
+                        ]
+                    }
+                ],
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 1,
+                        "relatedLot": "6"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "bids",
+                        "value": 1,
+                        "relatedLot": "1b"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "bids",
+                        "value": 1,
+                        "relatedLot": "1c"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "bids",
+                        "value": 1,
+                        "relatedLot": "1d"
+                    },
+                    {
+                        "id": "5",
+                        "measure": "bids",
+                        "value": 1,
+                        "relatedLot": "1e"
+                    },
+                    {
+                        "id": "6",
+                        "measure": "bids",
+                        "value": 2,
+                        "relatedLot": "2a"
+                    },
+                    {
+                        "id": "7",
+                        "measure": "finalStageBids",
+                        "value": 1,
+                        "relatedLot": "6"
+                    },
+                    {
+                        "id": "8",
+                        "measure": "smeFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "6"
+                    },
+                    {
+                        "id": "9",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "6"
+                    },
+                    {
+                        "id": "10",
+                        "measure": "finalStageBids",
+                        "value": 1,
+                        "relatedLot": "1b"
+                    },
+                    {
+                        "id": "11",
+                        "measure": "smeFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1b"
+                    },
+                    {
+                        "id": "12",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1b"
+                    },
+                    {
+                        "id": "13",
+                        "measure": "finalStageBids",
+                        "value": 1,
+                        "relatedLot": "1c"
+                    },
+                    {
+                        "id": "14",
+                        "measure": "smeFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1c"
+                    },
+                    {
+                        "id": "15",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1c"
+                    },
+                    {
+                        "id": "16",
+                        "measure": "finalStageBids",
+                        "value": 1,
+                        "relatedLot": "1d"
+                    },
+                    {
+                        "id": "17",
+                        "measure": "smeFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1d"
+                    },
+                    {
+                        "id": "18",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1d"
+                    },
+                    {
+                        "id": "19",
+                        "measure": "finalStageBids",
+                        "value": 1,
+                        "relatedLot": "1e"
+                    },
+                    {
+                        "id": "20",
+                        "measure": "smeFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1e"
+                    },
+                    {
+                        "id": "21",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1e"
+                    },
+                    {
+                        "id": "22",
+                        "measure": "finalStageBids",
+                        "value": 2,
+                        "relatedLot": "2a"
+                    },
+                    {
+                        "id": "23",
+                        "measure": "smeFinalStageBids",
+                        "value": 1,
+                        "relatedLot": "2a"
+                    },
+                    {
+                        "id": "24",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "2a"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Home to School Transport Bus and Coach Services on the Isle of Wight (2026)",
+                    "status": "pending",
+                    "date": "2026-07-01T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 12641644,
+                        "amount": 10534704,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-03949597",
+                            "name": "GO SOUTH COAST LIMITED"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "6",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "60172000",
+                                    "description": "Hire of buses and coaches with driver"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKJ34",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "6"
+                        },
+                        {
+                            "id": "1b",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "60172000",
+                                    "description": "Hire of buses and coaches with driver"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKJ34",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1b"
+                        },
+                        {
+                            "id": "1c",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "60172000",
+                                    "description": "Hire of buses and coaches with driver"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKJ34",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1c"
+                        },
+                        {
+                            "id": "1d",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "60172000",
+                                    "description": "Hire of buses and coaches with driver"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKJ34",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1d"
+                        },
+                        {
+                            "id": "1e",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "60172000",
+                                    "description": "Hire of buses and coaches with driver"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKJ34",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1e"
+                        },
+                        {
+                            "id": "2a",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "60172000",
+                                    "description": "Hire of buses and coaches with driver"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKJ34",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "2a"
+                        }
+                    ],
+                    "standstillPeriod": {
+                        "endDate": "2026-07-11T23:59:59+01:00"
+                    },
+                    "contractPeriod": {
+                        "startDate": "2026-09-01T00:00:00+01:00",
+                        "endDate": "2028-08-31T23:59:59+01:00"
+                    },
+                    "relatedLots": [
+                        "6",
+                        "1b",
+                        "1c",
+                        "1d",
+                        "1e",
+                        "2a"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061663-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061663-2026",
+                            "datePublished": "2026-07-01T12:12:17+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-07-01T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-12T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

@@ -1,0 +1,269 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061662-2026?limit=100&updatedTo=2026-08-23T11:28:58",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T12:11:53+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "buyerID": [],
+            "id": "061662-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T12:11:53+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-0666c2",
+            "parties": [
+                {
+                    "name": "West Yorkshire Combined Authority",
+                    "id": "GB-PPON-PHYG-7328-ZLQJ",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PHYG-7328-ZLQJ"
+                    },
+                    "address": {
+                        "streetAddress": "Wellington House, 40 - 50 Wellingon Street",
+                        "locality": "Leeds",
+                        "postalCode": "LS1 2DE",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKE42"
+                    },
+                    "contactPoint": {
+                        "email": "yb.procurement@westyorkshire.police.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "MICHELDEVER TYRE SERVICES LIMITED",
+                    "id": "GB-COH-01817398",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "01817398"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PRGR-8343-VZVY"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "Micheldever Station",
+                        "locality": "Hants",
+                        "postalCode": "SO21 3AP",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKJ36"
+                    },
+                    "contactPoint": {
+                        "email": "mfs@micheldever.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "https://micheldeverfleet.co.uk/",
+                        "scale": "large",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                },
+                {
+                    "name": "STAPLETON'S (TYRE SERVICES) LIMITED",
+                    "id": "GB-COH-00332098",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "00332098"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PDXG-6679-WPXH"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "Fourth Avenue",
+                        "locality": "Herts",
+                        "postalCode": "SG6 2TT",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKH23"
+                    },
+                    "contactPoint": {
+                        "email": "jonathon.stanbury@stapletons-tyres.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "http://www.stapletons-tyres.co.uk",
+                        "scale": "large",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PHYG-7328-ZLQJ",
+                "name": "West Yorkshire Combined Authority"
+            },
+            "tender": {
+                "id": "207-TRAN-25",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Supply of Miscellaneous Tyres",
+                "description": "West Yorkshire Police (WYP) have their own Transport Department which undertakes servicing and repairs to police vehicles including replacing worn and punctured tyres.\nTo complement an existing contract with Goodyear for their own brand tyres, for this contract Suppliers will be required to provide a variety of tyre brands ,for both cars and motorcycles, to meet ad-hoc requirements. Based on historic data, the required range is likely to include, but not be strictly limited to, the following brands:\n• Bridgestone\n• Dunlop\n• Continental\n• Michelin\n• Pirelli\n• Hankook\nSuppliers must be able to supply a range of commercially available tyres on a 'supply only' basis to any location within the West Yorkshire boundary. This will be predominantly delivery to the Transport Department based in Wakefield but from time to time, Suppliers may be required to deliver to our third-party contractor's body shops which are based in Leeds and Huddersfield. All tyres provided must be Original Equipment Manufacturer (OEM) tyres.\nSuppliers must be able to provide any commercially available tyre solution that is suitable to be fitted to the Buyer's vehicle or equipment. This may include, but is not limited to:\n• Motorcycles\n• Passenger vehicles\n• 4x4's (on and off road)\n• Light Commercial Vehicles (LCVs)\n• Minibuses, coaches and buses\n• Large Goods Vehicles (LGVs) and Heavy GoodsVehicles (HGVs)\n• Agrarian vehicles\n• Quad bikes\n• Trailers",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Open procedure",
+                "techniques": {
+                    "hasFrameworkAgreement": true
+                },
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 2,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "finalStageBids",
+                        "value": 2,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "smeFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Supply of Miscellaneous Tyres",
+                    "status": "active",
+                    "date": "2026-07-01T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 720000,
+                        "amount": 600000,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "goods",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-01817398",
+                            "name": "MICHELDEVER TYRE SERVICES LIMITED"
+                        },
+                        {
+                            "id": "GB-COH-00332098",
+                            "name": "STAPLETON'S (TYRE SERVICES) LIMITED"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "34351100",
+                                    "description": "Tyres for motor cars"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKE4",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-07-20T00:00:00+01:00",
+                        "endDate": "2030-07-19T23:59:59+01:00"
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061662-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061662-2026",
+                            "datePublished": "2026-07-01T12:11:53+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-07-01T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-13T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

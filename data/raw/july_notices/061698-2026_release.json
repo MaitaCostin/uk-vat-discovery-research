@@ -1,0 +1,517 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061698-2026?limit=100&updatedTo=2026-08-23T11:28:59",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T12:50:08+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "buyerID": [],
+            "id": "061698-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T12:50:08+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-06776d",
+            "parties": [
+                {
+                    "name": "Nottingham City Council",
+                    "id": "GB-PPON-PZGG-1891-TDCX",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PZGG-1891-TDCX"
+                    },
+                    "address": {
+                        "streetAddress": "Loxley House, Station Street",
+                        "locality": "Nottingham",
+                        "postalCode": "NG2 3NG",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKF14"
+                    },
+                    "contactPoint": {
+                        "email": "procurement@nottinghamcity.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://www.nottinghamcity.gov.uk/",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "DRAIN LINE SOUTHERN LIMITED",
+                    "id": "GB-COH-04933418",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "04933418"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PYHM-3571-LTRJ"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "Preston Park House",
+                        "locality": "Brighton",
+                        "postalCode": "BN1 6SB",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKJ21"
+                    },
+                    "contactPoint": {
+                        "email": "paul.monck@drainline.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "http://www.drainline.co.uk",
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                },
+                {
+                    "name": "BIOMARSH ENVIRONMENTAL LTD",
+                    "id": "GB-COH-01124715",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "01124715"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PMZC-5955-JWQZ"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "Peartree Farm",
+                        "locality": "Waltham Abbey",
+                        "postalCode": "EN9 2EW",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKH35"
+                    },
+                    "contactPoint": {
+                        "email": "sales@biomarsh.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "http://www.biomarsh.com/",
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                },
+                {
+                    "name": "SEMILONG SERVICES LIMITED",
+                    "id": "GB-COH-06842550",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "06842550"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PHML-7357-JLQW"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "15 Gate Lodge Close",
+                        "locality": "Northampton",
+                        "postalCode": "NN3 8RJ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKF24"
+                    },
+                    "contactPoint": {
+                        "email": "accounts@semilongservicesltd.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "http://www.semilongservicesltd.co.uk",
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                },
+                {
+                    "name": "J. M. MORRIS PLANT HIRE LTD",
+                    "id": "GB-COH-09203975",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "09203975"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PHJJ-1682-GVTD"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "Fulford House",
+                        "locality": "Leamington Spa",
+                        "postalCode": "CV32 4EA",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKG13"
+                    },
+                    "contactPoint": {
+                        "email": "jimmorrisplanthire@yahoo.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "http://www.jmmorrisplanhire.com",
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                },
+                {
+                    "name": "ZINGGROUP LTD",
+                    "id": "GB-COH-16381699",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "16381699"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PCVD-3143-HRXV"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "3rd Floor 45 Albemarle Street",
+                        "locality": "London",
+                        "postalCode": "W1S 4JL",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI32"
+                    },
+                    "contactPoint": {
+                        "email": "Info@zinggroupltd.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "http://Zinggroupltd.co.uk",
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                },
+                {
+                    "name": "J C BALLS & SONS LIMITED",
+                    "id": "GB-COH-04429834",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "04429834"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PLLL-4251-NTMY"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "Midlands Industrial Estate",
+                        "locality": "Belper",
+                        "postalCode": "DE56 2HX",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKF13"
+                    },
+                    "contactPoint": {
+                        "email": "enquiries@jcballs.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "http://www.jcballs.co.uk",
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PZGG-1891-TDCX",
+                "name": "Nottingham City Council"
+            },
+            "tender": {
+                "id": "CPU 7468",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "CPU 7468 Highways Gully Cleaning and Road Sweeping Framework",
+                "description": "Nottingham City Council (the 'Authority' or 'Employer') sought tenders from suitably experienced and qualified entities (the 'Tenderer') for inclusion on a framework for Gully Cleaning (Mechanical) & Road Sweeping (Mechanical) throughout the boundaries of Nottingham City Council. \nThis Framework is to consist of 2 separate lots. \nSubject to suitability, the Authority is seeking to appoint up to 3 Contractors to each lot.\nThe overall framework will have an estimated total value of £700,000 (VAT exclusive).\nThe Framework duration is expected to be for up to 4 years at the authority's discretion.",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Open procedure",
+                "techniques": {
+                    "hasFrameworkAgreement": true
+                },
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    },
+                    {
+                        "id": "2",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 5,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "finalStageBids",
+                        "value": 4,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "smeFinalStageBids",
+                        "value": 4,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "5",
+                        "measure": "bids",
+                        "value": 3,
+                        "relatedLot": "2"
+                    },
+                    {
+                        "id": "6",
+                        "measure": "finalStageBids",
+                        "value": 3,
+                        "relatedLot": "2"
+                    },
+                    {
+                        "id": "7",
+                        "measure": "smeFinalStageBids",
+                        "value": 3,
+                        "relatedLot": "2"
+                    },
+                    {
+                        "id": "8",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "2"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Lot 1 Gully Cleaning",
+                    "status": "active",
+                    "date": "2026-07-01T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 480000,
+                        "amount": 400000,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-04933418",
+                            "name": "DRAIN LINE SOUTHERN LIMITED"
+                        },
+                        {
+                            "id": "GB-COH-01124715",
+                            "name": "BIOMARSH ENVIRONMENTAL LTD"
+                        },
+                        {
+                            "id": "GB-COH-06842550",
+                            "name": "SEMILONG SERVICES LIMITED"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "90641000",
+                                    "description": "Gully cleaning services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKF14",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-07-27T00:00:00+01:00",
+                        "endDate": "2030-07-26T23:59:59+01:00"
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061698-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061698-2026",
+                            "datePublished": "2026-07-01T12:50:08+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-07-01T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-23T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "title": "Lot 2 Road Sweeping",
+                    "status": "active",
+                    "date": "2026-07-01T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 360000,
+                        "amount": 300000,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-09203975",
+                            "name": "J. M. MORRIS PLANT HIRE LTD"
+                        },
+                        {
+                            "id": "GB-COH-16381699",
+                            "name": "ZINGGROUP LTD"
+                        },
+                        {
+                            "id": "GB-COH-04429834",
+                            "name": "J C BALLS & SONS LIMITED"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "2",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "50230000",
+                                    "description": "Repair, maintenance and associated services related to roads and other equipment"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKF14",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "2"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-07-27T00:00:00+01:00",
+                        "endDate": "2030-07-26T23:59:59+01:00"
+                    },
+                    "relatedLots": [
+                        "2"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061698-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061698-2026",
+                            "datePublished": "2026-07-01T12:50:08+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-07-01T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-23T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

@@ -1,0 +1,237 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061576-2026?limit=100&updatedTo=2026-08-23T11:28:55",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+    ],
+    "publishedDate": "2026-07-01T10:56:25+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "id": "061576-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T10:56:25+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-069b28",
+            "parties": [
+                {
+                    "name": "Mid and West Wales Fire and Rescue Authority",
+                    "id": "GB-PPON-PGBC-9888-YDYX",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PGBC-9888-YDYX"
+                    },
+                    "address": {
+                        "streetAddress": "Fire Service Headquarters",
+                        "locality": "Carmarthen",
+                        "postalCode": "SA31 1SP",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKL14"
+                    },
+                    "contactPoint": {
+                        "name": "David Williams",
+                        "email": "procurement@mawwfire.gov.uk",
+                        "telephone": "+3706060699"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://www.mawwfire.gov.uk",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            },
+                            {
+                                "scheme": "UK_CA_DEVOLVED_REGULATIONS",
+                                "id": "GB-WLS",
+                                "description": "Welsh devolved regulations apply"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Safetykleen UK Limited ",
+                    "id": "GB-PPON-PVCW-5191-CDGX",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PVCW-5191-CDGX"
+                    },
+                    "address": {
+                        "streetAddress": "Profile West, 950 Great West Road",
+                        "locality": "Brentford",
+                        "postalCode": "TW8 9ES ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI75"
+                    },
+                    "contactPoint": {
+                        "email": "directresponse@safetykleen.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large",
+                        "vcse": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PGBC-9888-YDYX",
+                "name": "Mid and West Wales Fire and Rescue Authority"
+            },
+            "tender": {
+                "id": "PA23GSITQ2",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Vehicle Workshop Parts Cleaning & Waste Management Services",
+                "description": "Mid and West Wales Fire and Rescue Authority is seeking a supplier to provide a workshop parts and equipment cleaning solution that meets all relevant Environmental and Waste Regulations reducing the Fire and Rescue Services environmental impact. The successful Supplier / Contractor will provide a Contaminated Waste removal service that complies with all relevant environmental regulations including The Waste (Miscellaneous Amendments) (EU Exit) Regulations 2019.The contract will be for a 2 year period with option to extend for a further 3 years at 12 month intervals, with annual review meetings held between all parties to ensure performance and compliance with environmental regulations.",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Below threshold - open competition",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete"
+                    }
+                ]
+            },
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 1,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "finalStageBids",
+                        "value": 1,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "smeFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Vehicle Workshop Parts Cleaning & Waste Management Services",
+                    "status": "active",
+                    "date": "2026-06-30T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 60000.00,
+                        "amount": 50000.00,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": false,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PVCW-5191-CDGX",
+                            "name": "Safetykleen UK Limited "
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "90917000",
+                                    "description": "Cleaning services of transport equipment"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "43800000",
+                                    "description": "Workshop equipment"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKL24",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                },
+                                {
+                                    "region": "UKL14",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-07-13T00:00:00+01:00",
+                        "endDate": "2028-07-12T23:59:59+01:00",
+                        "maxExtentDate": "2031-07-12T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "option to extend for a further 3 years at 12 month intervals"
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061576-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061576-2026",
+                            "datePublished": "2026-07-01T10:56:25+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-10T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

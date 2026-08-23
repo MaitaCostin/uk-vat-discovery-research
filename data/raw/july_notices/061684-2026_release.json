@@ -1,0 +1,244 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061684-2026?limit=100&updatedTo=2026-08-23T11:28:59",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T12:39:16+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "buyerID": [],
+            "id": "061684-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T12:39:16+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-06c124",
+            "parties": [
+                {
+                    "name": "Worcestershire County Council",
+                    "id": "GB-PPON-PRPQ-4584-WLPQ",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PRPQ-4584-WLPQ"
+                    },
+                    "address": {
+                        "streetAddress": "County Hall, Spetchley Road",
+                        "locality": "Worcester",
+                        "postalCode": "WR5 2NP",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKG12"
+                    },
+                    "contactPoint": {
+                        "email": "procurement@worcestershire.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.worcestershire.gov.uk",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Herefordshire Council",
+                    "id": "GB-PPON-PDTG-2978-LHCN",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PDTG-2978-LHCN"
+                    },
+                    "address": {
+                        "streetAddress": "Herefordshire Council, Plough Lane",
+                        "locality": "Hereford",
+                        "postalCode": "HR4 0LE",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKG11"
+                    },
+                    "contactPoint": {
+                        "email": "commercialservices@herefordshire.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "KPMG LLP",
+                    "id": "GB-COH-OC301540",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "OC301540"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PMGV-6254-LTTL"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "15 Canada Square",
+                        "locality": "London",
+                        "postalCode": "E14 5GL",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI42"
+                    },
+                    "contactPoint": {
+                        "email": "psopportunities@kpmg.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "http://KPMG.CO.UK",
+                        "scale": "large",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PRPQ-4584-WLPQ",
+                "name": "Worcestershire County Council"
+            },
+            "tender": {
+                "id": "PL0374 WASTE FINANCIAL ADVISOR",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "WASTE FINANCIAL ADVISOR",
+                "description": "Financial advisor to provide specialist financial advice and support in relation to the Integrated Waste Management Services Contract between Worcestershire County Council, Herefordshire Council, and Mercia Waste Management Ltd. \nThis includes, but is not limited to, the following areas:\n  Review and assessment of proposed contract variations and their financial implications for both Councils;\n  Analysis of the financial impact of changes in waste, environmental, and related legislation;\n  Financial modelling and scenario analysis to support decisions on contract extension or re‑procurement options;\n  Assessment of value for money, affordability, and whole‑life costs associated with existing and future service arrangements;\n  Advice on financial risk allocation and mitigation within the contract;\n  Support in evaluating commercial and financial aspects of alternative service delivery options;\n  Input into negotiations on revised or new contractual and\ncommercial arrangements, including attendance at meetings as required; and\n  Provision of specialist financial insight to support robust decision‑making, assurance, and compliance with financial regulations.",
+                "status": "complete",
+                "procurementMethod": "direct",
+                "procurementMethodDetails": "Direct award",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "WASTE FINANCIAL ADVISOR",
+                    "status": "active",
+                    "date": "2026-05-27T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 684000,
+                        "amount": 570000,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-OC301540",
+                            "name": "KPMG LLP"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "66170000",
+                                    "description": "Financial consultancy, financial transaction processing and clearing-house services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKG11",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                },
+                                {
+                                    "region": "UKG12",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-07-11T00:00:00+01:00",
+                        "endDate": "2029-01-19T23:59:59Z",
+                        "maxExtentDate": "2032-01-19T23:59:59Z"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "Three potential scenarios under consideration. Will be dependent on what option is undertaken."
+                    },
+                    "hasOptions": true,
+                    "options": {
+                        "description": "Three potential scenarios under consideration. Will be dependent on what option is undertaken."
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061684-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061684-2026",
+                            "datePublished": "2026-07-01T12:39:16+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-11T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

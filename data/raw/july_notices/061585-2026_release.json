@@ -1,0 +1,242 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061585-2026?limit=100&updatedTo=2026-08-23T11:28:56",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+    ],
+    "publishedDate": "2026-07-01T11:05:44+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "id": "061585-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T11:05:44+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-068373",
+            "parties": [
+                {
+                    "name": "Connexus Homes Limited",
+                    "id": "GB-PPON-PZTX-9645-HPZJ",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PZTX-9645-HPZJ"
+                    },
+                    "address": {
+                        "streetAddress": "The Gateway, The Auction Yard",
+                        "locality": "Craven Arms",
+                        "postalCode": "SY7 9BW",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKG22"
+                    },
+                    "contactPoint": {
+                        "name": "Jayne Stringer",
+                        "email": "procurement@connexus-group.co.uk",
+                        "telephone": "03332313233"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Morgan Lambert Limited",
+                    "id": "GB-PPON-PJTM-2766-RQDX",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PJTM-2766-RQDX"
+                    },
+                    "address": {
+                        "streetAddress": "Unit 5, Old Building Yard, Cortworth Lane",
+                        "locality": "Rotherham",
+                        "postalCode": "S62 7SB",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKE31"
+                    },
+                    "contactPoint": {
+                        "name": "Lee Bradshaw",
+                        "email": "lee.bradshaw@morganlambert.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PZTX-9645-HPZJ",
+                "name": "Connexus Homes Limited"
+            },
+            "tender": {
+                "id": "ocds-h6vhtk-068373",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Compliance Quality Assurance Audit Services",
+                "description": "We are looking to appoint an independent third-party Auditor, with the sole purpose of giving the organisation ongoing feedback on the safe working of all its in-house engineers work, and that of employed contractors and sub-contractors.  This feedback will be used by us to improve standards, training and support to our engineers and staff.\nConnexus is committed to providing excellent homes and services and ensuring that its customers live in safe, quality homes by ensuring that compliance areas are managed to the highest standards. The quality assurance audits are required to ensure Connexus' safety commitment to its customers and staff is achieved.",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Open procedure",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete"
+                    }
+                ]
+            },
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 1,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "finalStageBids",
+                        "value": 1,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "smeFinalStageBids",
+                        "value": 1,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Compliance Quality Assurance Audit Services",
+                    "status": "pending",
+                    "date": "2026-06-30T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 420000.00,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PJTM-2766-RQDX",
+                            "name": "Morgan Lambert Limited"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "79212000",
+                                    "description": "Auditing services"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "90714300",
+                                    "description": "Sectoral environmental auditing services"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "90714400",
+                                    "description": "Activity specific environmental auditing services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKG11",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                },
+                                {
+                                    "region": "UKG22",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "standstillPeriod": {
+                        "endDate": "2026-07-10T23:59:59+01:00"
+                    },
+                    "contractPeriod": {
+                        "startDate": "2026-07-20T00:00:00+01:00",
+                        "endDate": "2029-07-19T23:59:59+01:00",
+                        "maxExtentDate": "2031-07-19T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "The contract will run for an initial period of three years with the option to extend for a further two years on a one plus one-year basis, based on satisfactory annual performance reviews."
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061585-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061585-2026",
+                            "datePublished": "2026-07-01T11:05:44+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-07-01T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-14T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

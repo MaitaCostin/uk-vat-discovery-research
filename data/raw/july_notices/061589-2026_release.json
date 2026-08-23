@@ -1,0 +1,369 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061589-2026?limit=100&updatedTo=2026-08-23T11:28:56",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T11:11:09+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "id": "061589-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T11:11:09+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-0663ad",
+            "parties": [
+                {
+                    "name": "Milton Keynes City Council",
+                    "id": "GB-PPON-PLDZ-6131-PWZH",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PLDZ-6131-PWZH"
+                    },
+                    "address": {
+                        "streetAddress": "Civic Offices, 1 Saxon Gate East",
+                        "locality": "Milton Keynes",
+                        "postalCode": "MK9 3EJ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKJ12"
+                    },
+                    "contactPoint": {
+                        "name": "Procurement Team",
+                        "email": "corporateprocurement@milton-keynes.gov.uk",
+                        "telephone": "01908691691"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.milton-keynes.gov.uk",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Qwello (UK) Ltd",
+                    "id": "GB-PPON-PMHL-6768-VLYG",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PMHL-6768-VLYG"
+                    },
+                    "address": {
+                        "streetAddress": "26-28 Mount Row",
+                        "locality": "London",
+                        "postalCode": "W1K3SQ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI32"
+                    },
+                    "contactPoint": {
+                        "email": "tenders@qwello.uk"
+                    },
+                    "roles": [
+                        "supplier",
+                        "tenderer"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    },
+                    "control": {
+                        "description": "Henrik Thiele, Qwello Gmbh, 21 Gisela-Stein-Strasse, Munich, Germany, 81 671, Oct 1967"
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PLDZ-6131-PWZH",
+                "name": "Milton Keynes City Council"
+            },
+            "tender": {
+                "id": "2026-076",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Residential EV Chargers Concession Contract - 2",
+                "description": "Milton Keynes City Council (the \"Council\") tendered for the provision of concession contract for Residential EV chargers. The Council has been allocated £1.442M OZEV LEVI (Local Electric Vehicle Infrastructure) Capital funding.  The funding will be used to deliver a range of residential, on-street charging infrastructure. With a combination of LEVI funding and private sector funding we are proposing to deliver around 101 charge points per tendered Lot across two geographically split Lots.  Each residential locality within the Lots will be assessed for viable EVI  installations consisting of a mix of 7-22kw and 50kw chargers. This equates to around 202 charging sockets per Lot.  In addition to the installation of new residential charge points, from June 2029, these contracts will also include the transition of all Milton Keynes City Councils existing residential charge points within the localities of each Lot.  The procurement is divided in two lots: Blue Lot and Green Lot. \nThe Council proposes to enter into a separate contract for each lot that will be for a term of 15 years.",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Open procedure",
+                "specialRegime": [
+                    "concession"
+                ],
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    },
+                    {
+                        "id": "2",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "bids": {
+                "details": [
+                    {
+                        "id": "2",
+                        "status": "valid",
+                        "tenderers": [
+                            {
+                                "id": "GB-PPON-PMHL-6768-VLYG",
+                                "name": "Qwello (UK) Ltd"
+                            }
+                        ],
+                        "relatedLots": [
+                            "1",
+                            "2"
+                        ]
+                    }
+                ],
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 1,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "bids",
+                        "value": 1,
+                        "relatedLot": "2"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "finalStageBids",
+                        "value": 1,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "5",
+                        "measure": "smeFinalStageBids",
+                        "value": 1,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "6",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "7",
+                        "measure": "finalStageBids",
+                        "value": 1,
+                        "relatedLot": "2"
+                    },
+                    {
+                        "id": "8",
+                        "measure": "smeFinalStageBids",
+                        "value": 1,
+                        "relatedLot": "2"
+                    },
+                    {
+                        "id": "9",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "2"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Residential EV Chargers Concession Contract - Blue Lot",
+                    "status": "pending",
+                    "date": "2026-06-26T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 43437156,
+                        "amount": 36197632,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PMHL-6768-VLYG",
+                            "name": "Qwello (UK) Ltd"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "31000000",
+                                    "description": "Electrical machinery, apparatus, equipment and consumables; lighting"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "31100000",
+                                    "description": "Electric motors, generators and transformers"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "31600000",
+                                    "description": "Electrical equipment and apparatus"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "51111000",
+                                    "description": "Installation services of electric motors, generators and transformers"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "standstillPeriod": {
+                        "endDate": "2026-07-10T23:59:59+01:00"
+                    },
+                    "contractPeriod": {
+                        "startDate": "2026-08-04T00:00:00+01:00",
+                        "endDate": "2041-08-03T23:59:59+01:00"
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061589-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061589-2026",
+                            "datePublished": "2026-07-01T11:11:09+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-07-01T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-08-03T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "title": "Residential EV Chargers Concession Contract - Green Lot",
+                    "status": "pending",
+                    "date": "2026-06-26T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 45085118,
+                        "amount": 37570932,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PMHL-6768-VLYG",
+                            "name": "Qwello (UK) Ltd"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "2",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "31000000",
+                                    "description": "Electrical machinery, apparatus, equipment and consumables; lighting"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "31100000",
+                                    "description": "Electric motors, generators and transformers"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "31600000",
+                                    "description": "Electrical equipment and apparatus"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "51111000",
+                                    "description": "Installation services of electric motors, generators and transformers"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKJ12",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "2"
+                        }
+                    ],
+                    "standstillPeriod": {
+                        "endDate": "2026-07-10T23:59:59+01:00"
+                    },
+                    "contractPeriod": {
+                        "startDate": "2026-08-04T00:00:00+01:00",
+                        "endDate": "2041-08-03T23:59:59+01:00"
+                    },
+                    "relatedLots": [
+                        "2"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061589-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061589-2026",
+                            "datePublished": "2026-07-01T11:11:09+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-07-01T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "2",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-08-03T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

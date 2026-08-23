@@ -1,0 +1,216 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061540-2026?limit=100&updatedTo=2026-08-23T11:28:55",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T09:44:57+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "buyerID": [],
+            "id": "061540-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T09:44:57+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-06c0d3",
+            "parties": [
+                {
+                    "name": "BORDER TO COAST PENSIONS PARTNERSHIP LIMITED",
+                    "id": "GB-COH-10795539",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "10795539"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PZTH-6472-NGDG"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "5th Floor Toronto Square",
+                        "locality": "Leeds",
+                        "postalCode": "LS1 2HJ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKE42"
+                    },
+                    "contactPoint": {
+                        "email": "procurement@bordertocoast.org.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "FUNDAPPS LTD",
+                    "id": "GB-COH-07380035",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "07380035"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PJZR-1476-HQVH"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "6th Floor 9 Appold Street",
+                        "locality": "London",
+                        "postalCode": "EC2A 2AP",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI41"
+                    },
+                    "contactPoint": {
+                        "email": "legal@fundapps.co"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "https://www.fundapps.co/",
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-COH-10795539",
+                "name": "BORDER TO COAST PENSIONS PARTNERSHIP LIMITED"
+            },
+            "tender": {
+                "id": "ocds-h6vhtk-06c0d3",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Compliance Sanctions & Shareholder Disclosures system",
+                "description": "FundApps Shareholding Disclosure - Long Only & Sanctions Monitoring and Infrastructure Service. System to be integrated with Blackrock Aladdin.",
+                "status": "complete",
+                "procurementMethod": "direct",
+                "procurementMethodDetails": "Direct award",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Compliance Sanctions & Shareholder Disclosures system",
+                    "status": "pending",
+                    "date": "2026-06-25T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 248652,
+                        "amount": 207210,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "goods",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-07380035",
+                            "name": "FUNDAPPS LTD"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "48100000",
+                                    "description": "Industry specific software package"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UK",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "standstillPeriod": {
+                        "endDate": "2026-07-10T23:59:59+01:00"
+                    },
+                    "contractPeriod": {
+                        "startDate": "2026-09-01T00:00:00+01:00",
+                        "endDate": "2031-08-30T23:59:59+01:00",
+                        "maxExtentDate": "2036-08-30T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "Initial contract term of 5 years followed by optional 5 year renewal"
+                    },
+                    "hasOptions": true,
+                    "options": {
+                        "description": "If we wish to increase the total AUM under monitoring then this will incur additional fees."
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061540-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061540-2026",
+                            "datePublished": "2026-07-01T09:44:57+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-11T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

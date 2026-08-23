@@ -1,0 +1,394 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061563-2026?limit=100&updatedTo=2026-08-23T11:28:55",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T10:27:37+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "id": "061563-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T10:27:37+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-05f6a7",
+            "parties": [
+                {
+                    "name": "Sheffield City Council",
+                    "id": "GB-PPON-PPQT-9425-JWVM",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PPQT-9425-JWVM"
+                    },
+                    "address": {
+                        "streetAddress": "Town Hall, Pinstone Street,",
+                        "locality": "Sheffield",
+                        "postalCode": "S1 2HH",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKE32"
+                    },
+                    "contactPoint": {
+                        "name": "Adam Elwis",
+                        "email": "adam.elwis@sheffield.gov.uk",
+                        "telephone": "+44 01142053372"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://sheffield.gov.uk",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Taking Care Personal Alarms Limited",
+                    "id": "GB-PPON-PBTZ-7632-HTPD",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PBTZ-7632-HTPD"
+                    },
+                    "address": {
+                        "streetAddress": "Linhay House, Linhay Business Park,",
+                        "locality": "Ashburton, Devon",
+                        "postalCode": "TQ13 7UP",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKK43"
+                    },
+                    "contactPoint": {
+                        "name": "Sarah O'Callaghan",
+                        "email": "sarah.ocallaghan@taking.care"
+                    },
+                    "roles": [
+                        "supplier",
+                        "tenderer"
+                    ],
+                    "details": {
+                        "scale": "large",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                },
+                {
+                    "name": "CAREIUM UK LIMITED",
+                    "id": "GB-PPON-PLPB-9615-NDDR",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PLPB-9615-NDDR"
+                    },
+                    "address": {
+                        "streetAddress": "Aspinall House,",
+                        "locality": "Blackburn",
+                        "postalCode": "BB1 2QE",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKD41"
+                    },
+                    "roles": [
+                        "tenderer"
+                    ],
+                    "details": {
+                        "scale": "large",
+                        "vcse": false
+                    }
+                },
+                {
+                    "name": "GBR DIGITAL HEALTH SOLUTIONS LTD",
+                    "id": "GB-PPON-PBVJ-3592-CZJR",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PBVJ-3592-CZJR"
+                    },
+                    "address": {
+                        "streetAddress": "Gunnery House, 9-11 Gunnery Terrace,",
+                        "locality": "London",
+                        "postalCode": "SE18 6SW",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI51"
+                    },
+                    "roles": [
+                        "tenderer"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false
+                    }
+                },
+                {
+                    "name": "Medequip Connect",
+                    "id": "GB-PPON-PJPC-9373-BVJD",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PJPC-9373-BVJD"
+                    },
+                    "address": {
+                        "streetAddress": "Unit 2 Summit Centre",
+                        "locality": "West Drayton",
+                        "postalCode": "UB7 0LJ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI74"
+                    },
+                    "roles": [
+                        "tenderer"
+                    ],
+                    "details": {
+                        "scale": "large",
+                        "vcse": false
+                    }
+                },
+                {
+                    "name": "Tunstall Healthcare (UK) Limited",
+                    "id": "GB-PPON-PBWN-8159-DQRZ",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PBWN-8159-DQRZ"
+                    },
+                    "address": {
+                        "streetAddress": "Whitley Lodge,",
+                        "locality": "Doncaster",
+                        "postalCode": "DN14 0HR",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKE22"
+                    },
+                    "roles": [
+                        "tenderer"
+                    ],
+                    "details": {
+                        "scale": "large",
+                        "vcse": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PPQT-9425-JWVM",
+                "name": "Sheffield City Council"
+            },
+            "tender": {
+                "id": "100109198",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Technology Enabled Care (TEC) Service Delivery Model",
+                "description": "Sheffield City Council (SCC) is commissioning a Strategic Delivery Partner to support the transformation of its Technology Enabled Care (TEC) service from a traditional telecare offer into a modern, digital, outcomes based and preventative service embedded across Adult Social Care. This is a strategic partnership contract, not solely a monitoring or equipment service. SCC is seeking an experienced TEC partner that can: • Lead system wide transformation and culture change • Embed a “TEC First” approach across Adult Health & Social Care pathways • Support innovation, digitisation and interoperability • Upskill SCC employees to enable the transfer of key responsibilities in year 3. • Deliver measurable outcomes and financial savings • Work collaboratively with the Council’s in house City Wide Care Alarms (CWCA) service",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Open procedure",
+                "specialRegime": [
+                    "lightTouch"
+                ],
+                "lots": [
+                    {
+                        "id": "LOT-0000",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "bids": {
+                "details": [
+                    {
+                        "id": "1",
+                        "status": "valid",
+                        "tenderers": [
+                            {
+                                "id": "GB-PPON-PBTZ-7632-HTPD",
+                                "name": "Taking Care Personal Alarms Limited"
+                            }
+                        ],
+                        "relatedLots": [
+                            "LOT-0000"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "status": "valid",
+                        "tenderers": [
+                            {
+                                "id": "GB-PPON-PLPB-9615-NDDR",
+                                "name": "CAREIUM UK LIMITED"
+                            }
+                        ],
+                        "relatedLots": [
+                            "LOT-0000"
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "status": "valid",
+                        "tenderers": [
+                            {
+                                "id": "GB-PPON-PBVJ-3592-CZJR",
+                                "name": "GBR DIGITAL HEALTH SOLUTIONS LTD"
+                            }
+                        ],
+                        "relatedLots": [
+                            "LOT-0000"
+                        ]
+                    },
+                    {
+                        "id": "4",
+                        "status": "valid",
+                        "tenderers": [
+                            {
+                                "id": "GB-PPON-PJPC-9373-BVJD",
+                                "name": "Medequip Connect"
+                            }
+                        ],
+                        "relatedLots": [
+                            "LOT-0000"
+                        ]
+                    },
+                    {
+                        "id": "5",
+                        "status": "valid",
+                        "tenderers": [
+                            {
+                                "id": "GB-PPON-PBWN-8159-DQRZ",
+                                "name": "Tunstall Healthcare (UK) Limited"
+                            }
+                        ],
+                        "relatedLots": [
+                            "LOT-0000"
+                        ]
+                    }
+                ],
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 5,
+                        "relatedLot": "LOT-0000"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "finalStageBids",
+                        "value": 5,
+                        "relatedLot": "LOT-0000"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "smeFinalStageBids",
+                        "value": 1,
+                        "relatedLot": "LOT-0000"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "LOT-0000"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Technology Enabled Care (TEC) Service Delivery Model",
+                    "status": "pending",
+                    "date": "2026-07-01T00:00:00Z",
+                    "value": {
+                        "amountGross": 10709279.40,
+                        "amount": 8924399.50,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PBTZ-7632-HTPD",
+                            "name": "Taking Care Personal Alarms Limited"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "LOT-0000",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "85000000",
+                                    "description": "Health and social work services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKE32",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "LOT-0000"
+                        }
+                    ],
+                    "standstillPeriod": {
+                        "endDate": "2026-07-13T23:59:59+01:00"
+                    },
+                    "contractPeriod": {
+                        "startDate": "2026-08-01T00:00:00Z",
+                        "endDate": "2031-07-31T23:59:59+01:00",
+                        "maxExtentDate": "2033-07-31T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "optional 24 month extension period"
+                    },
+                    "relatedLots": [
+                        "LOT-0000"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061563-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061563-2026",
+                            "datePublished": "2026-07-01T10:27:37+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-07-01T00:00:00Z",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-24T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

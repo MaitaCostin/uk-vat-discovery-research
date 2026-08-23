@@ -1,0 +1,261 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061624-2026?limit=100&updatedTo=2026-08-23T11:28:57",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+    ],
+    "publishedDate": "2026-07-01T11:44:47+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "id": "061624-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T11:44:47+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-0673be",
+            "parties": [
+                {
+                    "name": "Norse Commercial Services Ltd",
+                    "id": "GB-PPON-PRLT-2616-PGPY",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PRLT-2616-PGPY"
+                    },
+                    "address": {
+                        "streetAddress": "280 Fifers Lane",
+                        "locality": "Norwich",
+                        "postalCode": "NR6 6EQ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKH15"
+                    },
+                    "contactPoint": {
+                        "name": "Lloyd Craske",
+                        "email": "Lloyd.craske@norsegroup.co.uk",
+                        "telephone": "+44 1603894258"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicUndertaking",
+                                "description": "Public undertaking"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Amber Valley Norse Ltd",
+                    "id": "GB-PPON-PRGD-8763-LXMM",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PRGD-8763-LXMM"
+                    },
+                    "address": {
+                        "streetAddress": "280 Fifers Lane",
+                        "locality": "Norwich",
+                        "postalCode": "NR6 6EQ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKH15"
+                    },
+                    "contactPoint": {
+                        "name": "Lloyd Craske",
+                        "email": "lloyd.craske@norsegroup.co.uk",
+                        "telephone": "0160389425"
+                    },
+                    "roles": [
+                        "procuringEntity"
+                    ],
+                    "roleDetails": "End Client"
+                },
+                {
+                    "name": "H W Martin Waste Ltd",
+                    "id": "GB-PPON-PHRC-1955-TYPP",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PHRC-1955-TYPP"
+                    },
+                    "address": {
+                        "streetAddress": "Alfreton Recycling Centre, Clover Nook Road, Cotes Park Industrial Estate",
+                        "locality": "Somercotes",
+                        "postalCode": "DE55 4RF",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKF12"
+                    },
+                    "contactPoint": {
+                        "name": "Phil Darwin",
+                        "email": "recycling@hwmartin.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PRLT-2616-PGPY",
+                "name": "Norse Commercial Services Ltd"
+            },
+            "tender": {
+                "id": "NGRP0121",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Receipt & Processing of Selected Waste Materials",
+                "description": "Norse Group are seeking bids from suitably qualified supplier to receive and treat contract Waste from Amber Valley Norse on behalf of Amber Valley Borough Council. Waste is collected via kerbside collections in RCV’s from 7.5 – 26 tonne. The RCV’s collecting the material will deliver the waste directly to the transfer station.\nApproximate annual tonnage is \n•DMR is 9,000 tonnes of domestic waste with approximately 10-15 loads per day.\n•Additionally, there is commercial/trade DMR waste of approximately 400 tonnes.\n•Glass is 2,500 tonnes with approximately 10-15 loads per day.",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Open procedure",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete"
+                    }
+                ]
+            },
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 1,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "finalStageBids",
+                        "value": 1,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "smeFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "status": "pending",
+                    "date": "2026-06-30T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 3360187.00,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PHRC-1955-TYPP",
+                            "name": "H W Martin Waste Ltd"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "90513000",
+                                    "description": "Non-hazardous refuse and waste treatment and disposal services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKF12",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                },
+                                {
+                                    "region": "UKF13",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                },
+                                {
+                                    "region": "UKF1",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "standstillPeriod": {
+                        "endDate": "2026-07-10T23:59:59+01:00"
+                    },
+                    "contractPeriod": {
+                        "startDate": "2026-07-14T00:00:00+01:00",
+                        "endDate": "2027-06-26T23:59:59+01:00",
+                        "maxExtentDate": "2029-09-30T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "Initial term of the contract is 14/07/2026 – 26/06/2027 with option to extend until 01/10/2027. With additional 12 + 12-month extensions available thereafter until 30/09/2029."
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061624-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061624-2026",
+                            "datePublished": "2026-07-01T11:44:47+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-07-01T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-13T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

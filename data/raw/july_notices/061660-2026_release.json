@@ -1,0 +1,207 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061660-2026?limit=100&updatedTo=2026-08-23T11:28:58",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+    ],
+    "publishedDate": "2026-07-01T12:10:37+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "ocid": "ocds-h6vhtk-06c118",
+            "id": "061660-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T12:10:37+01:00",
+            "initiationType": "tender",
+            "parties": [
+                {
+                    "name": "Manchester University NHS Foundation Trust",
+                    "id": "GB-PPON-PXQG-2592-VYYY",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PXQG-2592-VYYY"
+                    },
+                    "address": {
+                        "streetAddress": "Finance & Procurement Business Unit, Wards 17 & 18, Trafford Hospital",
+                        "locality": "Trafford",
+                        "postalCode": "M41 5SL",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKD34"
+                    },
+                    "contactPoint": {
+                        "email": "purchasing@mft.nhs.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.mft.nhs.uk",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthorityCentralGovernment",
+                                "description": "Public authority - central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Speed Couriers Northern Ltd",
+                    "id": "GB-COH-04808389",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "04808389"
+                    },
+                    "address": {
+                        "streetAddress": "Ht2 Westbrook Road, Trafford Park",
+                        "locality": "Manchester",
+                        "postalCode": "M17 1AY",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKD34"
+                    },
+                    "contactPoint": {
+                        "email": "sales@speedcouriers.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "https://speedcouriers.co.uk/contact/",
+                        "scale": "large",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PXQG-2592-VYYY",
+                "name": "Manchester University NHS Foundation Trust"
+            },
+            "tender": {
+                "id": "C456430",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Cytology Couriers Services",
+                "description": "Division: CSS/Cytology department\nLocation: Cytology",
+                "status": "complete",
+                "procurementMethod": "selective",
+                "procurementMethodDetails": "Award under framework",
+                "competitive": false,
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Cytology Couriers",
+                    "status": "active",
+                    "date": "2026-06-30T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 306422.40,
+                        "amount": 255352.00,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-04808389",
+                            "name": "Speed Couriers Northern Ltd"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "64120000",
+                                    "description": "Courier services"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-07-01T00:00:00+01:00",
+                        "endDate": "2028-03-31T23:59:59+01:00",
+                        "maxExtentDate": "2029-03-31T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "12 months"
+                    },
+                    "hasOptions": true,
+                    "options": {
+                        "description": "12 months"
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061660-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061660-2026",
+                            "datePublished": "2026-07-01T12:10:37+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-01T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "relatedProcesses": [
+                {
+                    "id": "framework",
+                    "relationship": [
+                        "framework"
+                    ],
+                    "scheme": "ocid",
+                    "identifier": "ocds-h6vhtk-0503cc",
+                    "relatedLots": [
+                        "3d"
+                    ],
+                    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/ocds-h6vhtk-0503cc"
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

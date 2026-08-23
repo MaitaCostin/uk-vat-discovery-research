@@ -1,0 +1,251 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061619-2026?limit=100&updatedTo=2026-08-23T11:28:57",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T11:42:11+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "id": "061619-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T11:42:11+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-05dd32",
+            "parties": [
+                {
+                    "name": "Stanmore College",
+                    "id": "GB-UKPRN-10009439",
+                    "identifier": {
+                        "scheme": "GB-UKPRN",
+                        "id": "10009439"
+                    },
+                    "address": {
+                        "streetAddress": "Elm Park",
+                        "locality": "Stanmore Middlesex",
+                        "postalCode": "HA7 4BQ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI74"
+                    },
+                    "contactPoint": {
+                        "name": "Procurement Team",
+                        "email": "info@cohesionconsulting.co.uk",
+                        "telephone": "01892251001"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://www.stanmorecollege.ac.uk",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Cohesion Consulting Limited",
+                    "id": "GB-COH-13682273",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "13682273"
+                    },
+                    "address": {
+                        "streetAddress": "16 Mount Pleasant",
+                        "locality": "Tunbridge Wells",
+                        "postalCode": "TN1 1QU",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKJ46"
+                    },
+                    "contactPoint": {
+                        "email": "info@cohesionconsulting.co.uk"
+                    },
+                    "roles": [
+                        "procuringEntity",
+                        "processContactPoint"
+                    ],
+                    "roleDetails": "Cohesion are managing the tender process on behalf of the College",
+                    "details": {
+                        "url": "http://www.cohesionconsulting.co.uk"
+                    }
+                },
+                {
+                    "name": "CleanTEC Services Limited",
+                    "id": "GB-COH-04155336",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "04155336"
+                    },
+                    "address": {
+                        "streetAddress": "Unit 2 Handford Court",
+                        "locality": "Hertfordshire",
+                        "postalCode": "WD25 9EJ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKH23"
+                    },
+                    "contactPoint": {
+                        "email": "enquiries@cleantecservices.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "http://www.cleantecservices.co.uk",
+                        "scale": "large",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-UKPRN-10009439",
+                "name": "Stanmore College"
+            },
+            "tender": {
+                "id": "CCL_116",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Stanmore College Cleaning Tender",
+                "description": "Stanmore College  is a successful and vibrant Further Education college located in Stanmore, Middlesex. With student population of nearly 2,730 aged between 16 and 18 years of age, the College is supported by a team of 250 teaching and support staff. The College provides a dynamic learning environment across a modern and well-maintained single campus. \nThe College is now tendering its cleaning services with the aim of appointing a professional and proactive cleaning contractor who can help maintain the high standards of presentation and hygiene expected by students, staff and visitors. \nThe contract is scheduled to commence on 1st April 2026, initially spanning three years with an option for both parties to extend the contract for a further two years, (3+1+1) beyond this date by mutual agreement. Any contract extension will be subject to the College’s satisfaction and agreement on budgets and service levels. \nThe estimated turnover for the entire five-year duration is approximately £770,000.\nThe contract is focused on consistently high levels of cleaning service and pro-active management. Regular termly and annual reviews throughout the contract duration are mandatory, and a break clause should be included to support both parties in case the relationship does not thrive. The College expects the successful contractor to deliver an excellent level of service, as well as high standards of support and a strong working relationship throughout the year. \nThe procurement process follows a two stage ‘Competitive Flexible’ approach, beginning with a Procurement Specific Questionnaire (PSQ) stage followed by an Invitation to Tender (ITT) stage after shortlisting. \nThe successful bidder will be expected to operate with a strong partnership, integrity and honesty.",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Competitive flexible procedure",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 3,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "finalStageBids",
+                        "value": 3,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "smeFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Stanmore College Cleaning Tender",
+                    "status": "pending",
+                    "date": "2026-06-30T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 529183,
+                        "amount": 440986,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-04155336",
+                            "name": "CleanTEC Services Limited"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "90919300",
+                                    "description": "School cleaning services"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "standstillPeriod": {
+                        "endDate": "2026-07-10T23:59:59+01:00"
+                    },
+                    "contractPeriod": {
+                        "startDate": "2026-09-01T00:00:00+01:00",
+                        "endDate": "2029-08-31T23:59:59+01:00",
+                        "maxExtentDate": "2031-08-31T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "Any contract extension will be subject to the College’s satisfaction and agreement on budgets and service levels."
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061619-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061619-2026",
+                            "datePublished": "2026-07-01T11:42:11+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-07-01T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-08-01T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}
