@@ -1,0 +1,234 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061758-2026?limit=100&updatedTo=2026-08-23T12:14:35",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T13:54:24+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "ocid": "ocds-h6vhtk-06c155",
+            "buyerID": [],
+            "id": "061758-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T13:54:24+01:00",
+            "initiationType": "tender",
+            "parties": [
+                {
+                    "name": "London Councils",
+                    "id": "GB-COH-03037449",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "03037449"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PQZY-9683-WMWM"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "4th Floor 12 Arthur Street",
+                        "locality": "London",
+                        "postalCode": "EC4R 9AB",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI31"
+                    },
+                    "contactPoint": {
+                        "email": "MICHAEL.HARDY@LONDONCOUNCILS.GOV.UK"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "MORE IN COMMON",
+                    "id": "GB-COH-10900540",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "10900540"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PHDZ-9519-DWNZ"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "320 City Road",
+                        "locality": "London",
+                        "postalCode": "EC1V 2NZ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI43"
+                    },
+                    "contactPoint": {
+                        "email": "uk@moreincommon.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "http://www.moreincommon.org.uk",
+                        "scale": "sme",
+                        "vcse": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-COH-03037449",
+                "name": "London Councils"
+            },
+            "tender": {
+                "id": "R0426a",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "R0426a Communicating Climate Interventions",
+                "description": "London boroughs are delivering a wide-ranging set of climate interventions, for example to create warmer homes, lower energy bills, enhance local transport infrastructure and increase resilience to the ongoing impacts of climate change, as well as lowering greenhouse gas emissions. These interventions are closely linked to London's wider commitment to inclusive growth and improved health and wellbeing for Londoners.\nThese interventions are delivered with and for residents, local communities and local businesses. It is essential that their aims and approaches are designed and delivered in a way that is clear, enables meaningful engagement and builds local support.\nIt has been developed in response to recommendations from a cross-party group of councillors, and senior officers, including through four climate cabinet portfolio holder events in 2025/26 and engagement with the London Environment Directors' Network (LEDNet).",
+                "status": "complete",
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Below threshold - limited competition",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 5,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "finalStageBids",
+                        "value": 5,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "smeFinalStageBids",
+                        "value": 5,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "status": "active",
+                    "date": "2026-06-30T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 43080,
+                        "amount": 35900,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": false,
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-10900540",
+                            "name": "MORE IN COMMON"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "73110000",
+                                    "description": "Research services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UK",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-07-12T00:00:00+01:00",
+                        "endDate": "2026-12-12T23:59:59Z",
+                        "maxExtentDate": "2027-03-03T23:59:59Z"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "Due to issues found during initial period."
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061758-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061758-2026",
+                            "datePublished": "2026-07-01T13:54:24+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-10T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

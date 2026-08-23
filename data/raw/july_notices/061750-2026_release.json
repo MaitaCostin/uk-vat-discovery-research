@@ -1,0 +1,251 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061750-2026?limit=100&updatedTo=2026-08-23T12:14:35",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T13:46:49+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "buyerID": [],
+            "id": "061750-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T13:46:49+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-06c147",
+            "parties": [
+                {
+                    "name": "Bath Spa University",
+                    "id": "GB-UKPRN-10000571",
+                    "identifier": {
+                        "scheme": "GB-UKPRN",
+                        "id": "10000571"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PBMW-5596-NRJW"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "Newton Park, Newton St Loe,",
+                        "locality": "Bath",
+                        "postalCode": "BA2 9BN",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKK12"
+                    },
+                    "contactPoint": {
+                        "email": "procurement@bathspa.ac.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.bathspa.ac.uk/",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Blackboard International B.V.",
+                    "id": "GB-PPON-PRBP-7423-NZQZ",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PRBP-7423-NZQZ"
+                    },
+                    "address": {
+                        "streetAddress": "Databankweg 26",
+                        "locality": "Amsterdam",
+                        "postalCode": "3821 AL",
+                        "country": "NL",
+                        "countryName": "Netherlands",
+                        "region": "NL"
+                    },
+                    "contactPoint": {
+                        "email": "proposals@anthology.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "http://www.blackboard.com/",
+                        "scale": "large",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-UKPRN-10000571",
+                "name": "Bath Spa University"
+            },
+            "tender": {
+                "id": "BSU/2025/010",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Virtual Learning Environment (VLE) Licence Renewal",
+                "description": "SaaS Licence Renewal for Virtual Learnin Environment (VLE), Blackboard Ultra including Storage and Course Catalogue.",
+                "status": "complete",
+                "procurementMethod": "direct",
+                "procurementMethodDetails": "Direct award",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Virtual Learning Environment (VLE)",
+                    "status": "pending",
+                    "date": "2026-06-30T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 1317605.06,
+                        "amount": 1098004.22,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PRBP-7423-NZQZ",
+                            "name": "Blackboard International B.V."
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "48190000",
+                                    "description": "Educational software package"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "72268000",
+                                    "description": "Software supply services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKC",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                },
+                                {
+                                    "region": "UKD",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                },
+                                {
+                                    "region": "UKE",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                },
+                                {
+                                    "region": "UKF",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                },
+                                {
+                                    "region": "UKG",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                },
+                                {
+                                    "region": "UKH",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                },
+                                {
+                                    "region": "UKI",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                },
+                                {
+                                    "region": "UKJ",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                },
+                                {
+                                    "region": "UKK",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "standstillPeriod": {
+                        "endDate": "2026-07-10T23:59:59+01:00"
+                    },
+                    "contractPeriod": {
+                        "startDate": "2026-08-01T00:00:00+01:00",
+                        "endDate": "2031-07-31T23:59:59+01:00"
+                    },
+                    "hasOptions": true,
+                    "options": {
+                        "description": "The right to additional purchases while the contract is valid.\nChange of licence user numbers of storage requirements due to fluctuation in student numbers and courses over the term of the contract."
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061750-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061750-2026",
+                            "datePublished": "2026-07-01T13:46:49+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-13T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

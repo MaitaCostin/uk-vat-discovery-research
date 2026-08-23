@@ -1,0 +1,197 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061726-2026?limit=100&updatedTo=2026-08-23T12:14:34",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T13:25:11+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "buyerID": [],
+            "id": "061726-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T13:25:11+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-069931",
+            "parties": [
+                {
+                    "name": "National Highways Limited",
+                    "id": "GB-PPON-PGMJ-3793-VBBN",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PGMJ-3793-VBBN"
+                    },
+                    "address": {
+                        "streetAddress": "Three Snowhill, Snow Hill Queensway",
+                        "locality": "Birmingham",
+                        "postalCode": "B4 6GA",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKG31"
+                    },
+                    "contactPoint": {
+                        "email": "info@nationalhighways.co.uk",
+                        "telephone": "0300 123 5000"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://nationalhighways.co.uk",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthorityCentralGovernment",
+                                "description": "Public authority - central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Carbonaires Limited",
+                    "id": "GB-COH-13687587",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "13687587"
+                    },
+                    "address": {
+                        "streetAddress": "Moray House, 23-35 Great Titchfield Street",
+                        "locality": "London",
+                        "postalCode": "W1W 7PA",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI32"
+                    },
+                    "contactPoint": {
+                        "email": "info@carbonaires.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PGMJ-3793-VBBN",
+                "name": "National Highways Limited"
+            },
+            "tender": {
+                "id": "ocds-h6vhtk-069931",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "UK5 - Transparency Notice",
+                "description": "1. Support LTC in securing carbon removal carbon credits from project developers based on carbon project experience\n2. Deep policy, markets, science, finance, technology, and risk management expertise for direct purchase of high integrity carbon credits from developers\n3. Expertise and experience in developing own carbon removal projects to support potential commercialisation of LTC’s projects e.g. trees",
+                "status": "complete",
+                "procurementMethod": "direct",
+                "procurementMethodDetails": "Direct award",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "status": "active",
+                    "date": "2026-05-14T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 724200,
+                        "amount": 603500,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-13687587",
+                            "name": "Carbonaires Limited"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "90710000",
+                                    "description": "Environmental management"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UK",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-07-14T00:00:00+01:00",
+                        "endDate": "2028-07-13T23:59:59+01:00",
+                        "maxExtentDate": "2029-07-13T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "Continuation of technical specialist services"
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061726-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061726-2026",
+                            "datePublished": "2026-07-01T13:25:11+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-13T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

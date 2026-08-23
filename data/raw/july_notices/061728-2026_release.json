@@ -1,0 +1,860 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061728-2026?limit=100&updatedTo=2026-08-23T12:14:34",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+    ],
+    "publishedDate": "2026-07-01T13:28:35+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "id": "061728-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T13:28:35+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-05a43b",
+            "parties": [
+                {
+                    "name": "City & County of Swansea",
+                    "id": "GB-PPON-PYYD-8699-BJGD",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PYYD-8699-BJGD"
+                    },
+                    "address": {
+                        "streetAddress": "Civic Centre",
+                        "locality": "Swansea",
+                        "postalCode": "SA1 3SN",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKL18"
+                    },
+                    "contactPoint": {
+                        "name": "Procurement",
+                        "email": "procurement@swansea.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://www.swansea.gov.uk/dobusiness",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            },
+                            {
+                                "scheme": "UK_CA_DEVOLVED_REGULATIONS",
+                                "id": "GB-WLS",
+                                "description": "Welsh devolved regulations apply"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "PRIMEGUARD CARPET CARE LTD",
+                    "id": "GB-PPON-PXQG-4123-YHBG",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PXQG-4123-YHBG"
+                    },
+                    "address": {
+                        "streetAddress": "4 Limeslade Close",
+                        "locality": "Cardiff",
+                        "postalCode": "CF5 3BD",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKL22"
+                    },
+                    "contactPoint": {
+                        "email": "info@primeguardcarpetcare.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                },
+                {
+                    "name": "ULTIMATE CLEANING & MAINTENANCE GROUP LTD",
+                    "id": "GB-PPON-PWHD-2847-HTJR",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PWHD-2847-HTJR"
+                    },
+                    "address": {
+                        "streetAddress": "Rees-Jones House 63a Courtney Street, Manselton, SA5 9NR",
+                        "locality": "Swansea",
+                        "postalCode": "SA5 9NR",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKL18"
+                    },
+                    "contactPoint": {
+                        "email": "Ultimatecleaningmaintenance@gmail.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                },
+                {
+                    "name": "BELL CLEANING SERVICES LTD",
+                    "id": "GB-PPON-PNMC-2851-HLRG",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PNMC-2851-HLRG"
+                    },
+                    "address": {
+                        "streetAddress": "Venta House Unit 9a Port Road, Maesglas Retail Park, ",
+                        "locality": "Newport",
+                        "postalCode": "NP20 2NS",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKL21"
+                    },
+                    "contactPoint": {
+                        "email": "info@bellcleaningservices.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                },
+                {
+                    "name": "1ST CHOICE PRO CLEANING SERVICES LTD",
+                    "id": "GB-PPON-PGXN-4624-BPYL",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PGXN-4624-BPYL"
+                    },
+                    "address": {
+                        "streetAddress": "9 Caxton House Broad Street, Cambourne, ",
+                        "locality": "Cambridge",
+                        "postalCode": "CB23 6JN",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKH12"
+                    },
+                    "contactPoint": {
+                        "email": "info@1stchoiceprocleaning.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                },
+                {
+                    "name": "Cleaning Solutions",
+                    "id": "GB-PPON-PJRW-3892-DXZD",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PJRW-3892-DXZD"
+                    },
+                    "address": {
+                        "streetAddress": "214b Corsham Road",
+                        "locality": "Wiltshire",
+                        "postalCode": "SN12 8QF",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKK15"
+                    },
+                    "contactPoint": {
+                        "email": "enquries@cleaningsolutionsuk.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                },
+                {
+                    "name": "CDC Specialists Ltd",
+                    "id": "GB-PPON-PJCV-8393-DMDV",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PJCV-8393-DMDV"
+                    },
+                    "address": {
+                        "streetAddress": "1-4 Ty Mawr Lane",
+                        "locality": "Cardiff",
+                        "postalCode": "CF14 2AZ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKL22"
+                    },
+                    "contactPoint": {
+                        "email": "info@cdcspecialists.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large",
+                        "vcse": false
+                    }
+                },
+                {
+                    "name": "CLEARLY BETTER CLEANING LTD",
+                    "id": "GB-PPON-PDVB-5489-ZGCJ",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PDVB-5489-ZGCJ"
+                    },
+                    "address": {
+                        "streetAddress": "5 Alyson Way",
+                        "locality": "Bridgend",
+                        "postalCode": "CF35 6TP",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKL17"
+                    },
+                    "contactPoint": {
+                        "email": "clearlybettercleaningsolutions@outlook.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false
+                    }
+                },
+                {
+                    "name": "ADAPT BUSINESS SERVICES LIMITED",
+                    "id": "GB-PPON-PBQL-5521-YNQD",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PBQL-5521-YNQD"
+                    },
+                    "address": {
+                        "streetAddress": "Canolfan Gorseinon Millers Drive",
+                        "locality": "Swansea",
+                        "postalCode": "SA4 4QN",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKL18"
+                    },
+                    "contactPoint": {
+                        "email": "office@adaptcommercialcleaning.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false
+                    }
+                },
+                {
+                    "name": "OS1 Limited",
+                    "id": "GB-PPON-PGZB-2262-DQXN",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PGZB-2262-DQXN"
+                    },
+                    "address": {
+                        "streetAddress": "126 west cross lane ",
+                        "locality": "Swansea",
+                        "postalCode": "SA3 5NG",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKL18"
+                    },
+                    "contactPoint": {
+                        "email": "info@one-stopltd.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false
+                    }
+                },
+                {
+                    "name": "JCH EXTERIOR CLEANING SPECIALISTS LTD",
+                    "id": "GB-PPON-PNNR-1574-MCTY",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PNNR-1574-MCTY"
+                    },
+                    "address": {
+                        "streetAddress": "17 St. Marks Close",
+                        "locality": "Pontyclun",
+                        "postalCode": "CF72 9SS",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKL15"
+                    },
+                    "contactPoint": {
+                        "email": "hello@jchexteriorspecialists.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false
+                    }
+                },
+                {
+                    "name": "APT ICC LTD",
+                    "id": "GB-PPON-PLCY-9296-DZZP",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PLCY-9296-DZZP"
+                    },
+                    "address": {
+                        "streetAddress": "Crown House Unit F",
+                        "locality": "Tredegar",
+                        "postalCode": "NP22 4EF",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKL16"
+                    },
+                    "contactPoint": {
+                        "email": "ria.smith@apt-icc.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PYYD-8699-BJGD",
+                "name": "City & County of Swansea"
+            },
+            "tender": {
+                "id": "CCS-25-230",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Framework for the Provision of Corporate Cleaning Services Lots 1-5",
+                "description": "A multi‑lot framework for the planned and reactive cleaning of soft furnishings within libraries, together with additional lots covering daily and out‑of‑hours cleaning at the Quadrant Bus Station, window cleaning across the bus station and other corporate buildings, and the routine and seasonal cleaning of public conveniences",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Open procedure",
+                "techniques": {
+                    "hasFrameworkAgreement": true
+                },
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete"
+                    },
+                    {
+                        "id": "2",
+                        "status": "complete"
+                    },
+                    {
+                        "id": "3",
+                        "status": "complete"
+                    },
+                    {
+                        "id": "4",
+                        "status": "complete"
+                    },
+                    {
+                        "id": "5",
+                        "status": "complete"
+                    }
+                ]
+            },
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 13,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "finalStageBids",
+                        "value": 9,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "smeFinalStageBids",
+                        "value": 9,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "5",
+                        "measure": "bids",
+                        "value": 12,
+                        "relatedLot": "2"
+                    },
+                    {
+                        "id": "6",
+                        "measure": "finalStageBids",
+                        "value": 8,
+                        "relatedLot": "2"
+                    },
+                    {
+                        "id": "7",
+                        "measure": "smeFinalStageBids",
+                        "value": 8,
+                        "relatedLot": "2"
+                    },
+                    {
+                        "id": "8",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "2"
+                    },
+                    {
+                        "id": "9",
+                        "measure": "bids",
+                        "value": 17,
+                        "relatedLot": "3"
+                    },
+                    {
+                        "id": "10",
+                        "measure": "finalStageBids",
+                        "value": 11,
+                        "relatedLot": "3"
+                    },
+                    {
+                        "id": "11",
+                        "measure": "smeFinalStageBids",
+                        "value": 11,
+                        "relatedLot": "3"
+                    },
+                    {
+                        "id": "12",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "3"
+                    },
+                    {
+                        "id": "13",
+                        "measure": "bids",
+                        "value": 12,
+                        "relatedLot": "4"
+                    },
+                    {
+                        "id": "14",
+                        "measure": "finalStageBids",
+                        "value": 10,
+                        "relatedLot": "4"
+                    },
+                    {
+                        "id": "15",
+                        "measure": "smeFinalStageBids",
+                        "value": 10,
+                        "relatedLot": "4"
+                    },
+                    {
+                        "id": "16",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "4"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Cleaning of Upholstery and Carpets",
+                    "status": "pending",
+                    "date": "2026-06-05T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 120000.00,
+                        "amount": 100000.00,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PXQG-4123-YHBG",
+                            "name": "PRIMEGUARD CARPET CARE LTD"
+                        },
+                        {
+                            "id": "GB-PPON-PWHD-2847-HTJR",
+                            "name": "ULTIMATE CLEANING & MAINTENANCE GROUP LTD"
+                        },
+                        {
+                            "id": "GB-PPON-PNMC-2851-HLRG",
+                            "name": "BELL CLEANING SERVICES LTD"
+                        },
+                        {
+                            "id": "GB-PPON-PGXN-4624-BPYL",
+                            "name": "1ST CHOICE PRO CLEANING SERVICES LTD"
+                        },
+                        {
+                            "id": "GB-PPON-PJRW-3892-DXZD",
+                            "name": "Cleaning Solutions"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "90910000",
+                                    "description": "Cleaning services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKL18",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "standstillPeriod": {
+                        "endDate": "2026-07-10T23:59:59+01:00"
+                    },
+                    "contractPeriod": {
+                        "startDate": "2026-07-13T00:00:00+01:00",
+                        "endDate": "2027-07-12T23:59:59+01:00",
+                        "maxExtentDate": "2030-07-12T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "up to 36 months"
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061728-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061728-2026",
+                            "datePublished": "2026-07-01T13:28:35+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-06-30T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-13T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "title": "Window Cleaning",
+                    "status": "active",
+                    "date": "2026-06-23T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 48000.00,
+                        "amount": 40000.00,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": false,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PDVB-5489-ZGCJ",
+                            "name": "CLEARLY BETTER CLEANING LTD"
+                        },
+                        {
+                            "id": "GB-PPON-PBQL-5521-YNQD",
+                            "name": "ADAPT BUSINESS SERVICES LIMITED"
+                        },
+                        {
+                            "id": "GB-PPON-PGZB-2262-DQXN",
+                            "name": "OS1 Limited"
+                        },
+                        {
+                            "id": "GB-PPON-PNNR-1574-MCTY",
+                            "name": "JCH EXTERIOR CLEANING SPECIALISTS LTD"
+                        },
+                        {
+                            "id": "GB-PPON-PLCY-9296-DZZP",
+                            "name": "APT ICC LTD"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "2",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "90911000",
+                                    "description": "Accommodation, building and window cleaning services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKL18",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "2"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-07-13T00:00:00+01:00",
+                        "endDate": "2027-07-12T23:59:59+01:00",
+                        "maxExtentDate": "2030-07-12T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "up to 36 months"
+                    },
+                    "relatedLots": [
+                        "2"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061728-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061728-2026",
+                            "datePublished": "2026-07-01T13:28:35+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-06-30T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-13T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "title": "Cleaning at Swansea Bus Station",
+                    "status": "pending",
+                    "date": "2026-06-23T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 356236.80,
+                        "amount": 296864.00,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PLCY-9296-DZZP",
+                            "name": "APT ICC LTD"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "3",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "90910000",
+                                    "description": "Cleaning services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKL18",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "3"
+                        }
+                    ],
+                    "standstillPeriod": {
+                        "endDate": "2026-07-10T23:59:59+01:00"
+                    },
+                    "contractPeriod": {
+                        "startDate": "2026-07-13T00:00:00+01:00",
+                        "endDate": "2027-07-12T23:59:59+01:00",
+                        "maxExtentDate": "2030-07-12T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "Up to 36 months"
+                    },
+                    "relatedLots": [
+                        "3"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061728-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061728-2026",
+                            "datePublished": "2026-07-01T13:28:35+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-06-30T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-13T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                },
+                {
+                    "id": "4",
+                    "title": "Window Cleaning at Swansea Bus Station",
+                    "status": "active",
+                    "date": "2026-05-21T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 21504.00,
+                        "amount": 17920.00,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": false,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PJCV-8393-DMDV",
+                            "name": "CDC Specialists Ltd"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "4",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "90911000",
+                                    "description": "Accommodation, building and window cleaning services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKL18",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "4"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-07-13T00:00:00+01:00",
+                        "endDate": "2027-07-12T23:59:59+01:00",
+                        "maxExtentDate": "2030-07-12T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "Up to 36 months"
+                    },
+                    "relatedLots": [
+                        "4"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061728-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061728-2026",
+                            "datePublished": "2026-07-01T13:28:35+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-06-09T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-13T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                },
+                {
+                    "id": "-1",
+                    "status": "active",
+                    "finalStatusDate": "2026-06-22T00:00:00+01:00",
+                    "relatedLots": [
+                        "5"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061728-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061728-2026",
+                            "datePublished": "2026-07-01T13:28:35+01:00",
+                            "format": "text/html"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

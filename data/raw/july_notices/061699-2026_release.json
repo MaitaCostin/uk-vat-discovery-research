@@ -1,0 +1,189 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061699-2026?limit=100&updatedTo=2026-08-23T12:14:34",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+    ],
+    "publishedDate": "2026-07-01T12:51:00+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "id": "061699-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T12:51:00+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-06b5b0",
+            "parties": [
+                {
+                    "name": "Merseyside Waste Disposal Authority",
+                    "id": "GB-PPON-PTZC-9932-DRCM",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PTZC-9932-DRCM"
+                    },
+                    "address": {
+                        "streetAddress": "7 th Floor",
+                        "locality": "Liverpool",
+                        "postalCode": "L3 1BP",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKD72"
+                    },
+                    "contactPoint": {
+                        "name": "Paula Pocock",
+                        "email": "procurement@merseysidewda.gov.uk",
+                        "telephone": "0151 255 1444"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://https://www.merseysidewda.gov.uk/",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "WSP",
+                    "id": "GB-PPON-PXHY-9498-VZNJ",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PXHY-9498-VZNJ"
+                    },
+                    "address": {
+                        "streetAddress": "WSP House, 70 Chancery Lane, ",
+                        "locality": "London, ",
+                        "postalCode": "WC2A 1AF",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI31"
+                    },
+                    "contactPoint": {
+                        "email": "Katie.Jackson@wsp.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large",
+                        "vcse": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PTZC-9932-DRCM",
+                "name": "Merseyside Waste Disposal Authority"
+            },
+            "tender": {
+                "id": "ocds-h6vhtk-06b5b0",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Contract for Communications and Engagement Support",
+                "description": "To appoint a communications agency or consultant for a set period of time, who will lead on the Stakeholder engagement, public consultations and communications needed regarding the development of new and existing facilities, new waste processes and key policies to a wide variety of stakeholders and communities across the Liverpool City Region.\nMerseyside Waste Disposal is beginning a major procurement process to modernise its recycling and waste management services across the Liverpool City Region. This initiative is a crucial step in a long-term strategy to provide the public with a more efficient, accessible, and environmentally friendly facilities.",
+                "status": "complete",
+                "procurementMethod": "direct",
+                "procurementMethodDetails": "Below threshold - without competition",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Contract for Communications and Engagement Support",
+                    "status": "active",
+                    "date": "2026-06-30T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 81870.00,
+                        "amount": 68225.00,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": false,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PXHY-9498-VZNJ",
+                            "name": "WSP"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "79000000",
+                                    "description": "Business services: law, marketing, consulting, recruitment, printing and security"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKD7",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-07-02T00:00:00+01:00",
+                        "endDate": "2027-03-31T23:59:59+01:00"
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061699-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061699-2026",
+                            "datePublished": "2026-07-01T12:51:00+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-01T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

@@ -1,0 +1,203 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061720-2026?limit=100&updatedTo=2026-08-23T12:14:34",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T13:20:15+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "ocid": "ocds-h6vhtk-06c140",
+            "buyerID": [],
+            "id": "061720-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T13:20:15+01:00",
+            "initiationType": "tender",
+            "parties": [
+                {
+                    "name": "Department for Science, Innovation & Technology",
+                    "id": "GB-PPON-PVWZ-3216-PVQL",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PVWZ-3216-PVQL"
+                    },
+                    "address": {
+                        "streetAddress": "22 Whitehall",
+                        "locality": "London",
+                        "postalCode": "SW1A 2EG",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI32"
+                    },
+                    "contactPoint": {
+                        "email": "commercialexcellence@ics.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthorityCentralGovernment",
+                                "description": "Public authority - central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Randstad Solutions Ltd",
+                    "id": "GB-PPON-PTLC-1143-DCGD",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PTLC-1143-DCGD"
+                    },
+                    "address": {
+                        "streetAddress": "450 Capability Green",
+                        "locality": "Luton",
+                        "postalCode": "LU1 3LU",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKH21"
+                    },
+                    "contactPoint": {
+                        "email": "juliett.shackleton@randstad.co.uk"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PVWZ-3216-PVQL",
+                "name": "Department for Science, Innovation & Technology"
+            },
+            "tender": {
+                "id": "itt_2641",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Provision of Teacher Services - Education Benchmarking",
+                "description": "Provision of teacher services for the sovereign education benchmark project.",
+                "status": "complete",
+                "procurementMethod": "selective",
+                "procurementMethodDetails": "Award under framework",
+                "competitive": true,
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Provision of Teacher Services - Education Benchmarking",
+                    "status": "active",
+                    "date": "2026-06-26T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 900000,
+                        "amount": 750000,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PTLC-1143-DCGD",
+                            "name": "Randstad Solutions Ltd"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "80000000",
+                                    "description": "Education and training services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UK",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-07-10T00:00:00+01:00",
+                        "endDate": "2026-09-30T23:59:59+01:00"
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061720-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061720-2026",
+                            "datePublished": "2026-07-01T13:20:15+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-10T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "relatedProcesses": [
+                {
+                    "id": "framework",
+                    "relationship": [
+                        "framework"
+                    ],
+                    "scheme": "ocid",
+                    "identifier": "ocds-h6vhtk-050236",
+                    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/ocds-h6vhtk-050236"
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

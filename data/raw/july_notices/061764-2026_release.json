@@ -1,0 +1,204 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061764-2026?limit=100&updatedTo=2026-08-23T12:14:35",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+    ],
+    "publishedDate": "2026-07-01T13:58:08+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "ocid": "ocds-h6vhtk-06c158",
+            "id": "061764-2026",
+            "date": "2026-07-01T13:58:08+01:00",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "description": "(SC Ref:836030)",
+            "initiationType": "tender",
+            "tender": {
+                "id": "C002198",
+                "legalBasis": {
+                    "id": "32014L0024",
+                    "scheme": "CELEX"
+                },
+                "title": "C002198 - Delivery of Incredible Years Parenting Programme Training & Materials",
+                "status": "complete",
+                "classification": {
+                    "scheme": "CPV",
+                    "id": "80000000",
+                    "description": "Education and training services"
+                },
+                "mainProcurementCategory": "services",
+                "description": "PSD Scotland intends to award a contract without prior publication of a contract notice in accordance with Regulation 33 of the Public Contracts (Scotland) Regulations 2015 to Incredible Years, Inc. (based in Seattle, USA) for the delivery of training and materials. Incredible Years has a network of trainers around the world. Only certified Incredible Years Mentors and Trainers can deliver Incredible Years trainings using Incredible Years materials.  It is anticipated the contract will start July 2026 with an estimated contract value over the next 45 months of circa 225,601 GBP maximum (ex VAT).",
+                "lots": [
+                    {
+                        "id": "1",
+                        "description": "PSD Scotland intends to award a contract without prior publication of a contract notice in accordance with Regulation 33 of the Public Contracts (Scotland) Regulations 2015 - reg 33(b) (iii) the protection of exclusive rights, including intellectual property rights.\nIncredible Years Training is coordinated via The Incredible Years, Inc. (based in Seattle, USA). Incredible Years has a network of trainers around the world. Only certified Incredible Years Mentors and Trainers can deliver Incredible Years trainings using Incredible Years materials.",
+                        "hasOptions": false
+                    }
+                ],
+                "items": [
+                    {
+                        "id": "1",
+                        "additionalClassifications": [
+                            {
+                                "scheme": "CPV",
+                                "id": "80000000",
+                                "description": "Education and training services"
+                            }
+                        ],
+                        "deliveryAddresses": [
+                            {
+                                "region": "UKM"
+                            }
+                        ],
+                        "relatedLot": "1"
+                    }
+                ],
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Award procedure without prior publication of a call for competition",
+                "coveredBy": [
+                    "GPA"
+                ],
+                "procurementMethodRationaleClassifications": [
+                    {
+                        "scheme": "TED_PT_AWARD_CONTRACT_WITHOUT_CALL",
+                        "id": "D_OUTSIDE_SCOPE",
+                        "description": "The procurement falls outside the scope of application of the directive"
+                    }
+                ],
+                "procurementMethodRationale": "PSD Scotland intends to award a contract without prior publication of a contract notice in accordance with Regulation 33 of the Public Contracts (Scotland) Regulations 2015 - reg 33(b) (iii) the protection of exclusive rights, including intellectual property rights.\nIncredible Years Training is coordinated via The Incredible Years, Inc. (based in Seattle, USA). Incredible Years has a network of trainers around the world. Only certified Incredible Years Mentors and Trainers can deliver Incredible Years trainings using Incredible Years materials."
+            },
+            "awards": [
+                {
+                    "id": "061764-2026-C002198-1",
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "status": "active",
+                    "suppliers": [
+                        {
+                            "id": "GB-FTS-42060",
+                            "name": "The Incredible Years Inc."
+                        }
+                    ]
+                }
+            ],
+            "parties": [
+                {
+                    "name": "The Common Services Agency (more commonly known as Public Services Delivery Scotland) (PSD Scotland)",
+                    "id": "GB-FTS-179412",
+                    "identifier": {
+                        "legalName": "The Common Services Agency (more commonly known as Public Services Delivery Scotland) (PSD Scotland)"
+                    },
+                    "address": {
+                        "streetAddress": "1 South Gyle Crescent.",
+                        "locality": "Edinburgh",
+                        "region": "UKM",
+                        "postalCode": "EH12 9EB",
+                        "countryName": "United Kingdom"
+                    },
+                    "contactPoint": {
+                        "telephone": "+44 1312756000",
+                        "email": "tenders@nes.scot.nhs.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://publicservicesdelivery.scot/about/procurement/",
+                        "buyerProfile": "https://www.publiccontractsscotland.gov.uk/search/Search_AuthProfile.aspx?ID=AA11883",
+                        "classifications": [
+                            {
+                                "scheme": "TED_CA_TYPE",
+                                "id": "BODY_PUBLIC",
+                                "description": "Body governed by public law"
+                            },
+                            {
+                                "scheme": "COFOG",
+                                "id": "07",
+                                "description": "Health"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "The Incredible Years Inc.",
+                    "id": "GB-FTS-42060",
+                    "identifier": {
+                        "legalName": "The Incredible Years Inc."
+                    },
+                    "address": {
+                        "streetAddress": "1411 8th Ave W, Washington",
+                        "locality": "Seattle",
+                        "region": "US",
+                        "postalCode": "98119",
+                        "countryName": "United States"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large"
+                    }
+                },
+                {
+                    "name": "Edinburgh Sheriff Court",
+                    "id": "GB-FTS-404",
+                    "identifier": {
+                        "legalName": "Edinburgh Sheriff Court"
+                    },
+                    "address": {
+                        "streetAddress": "27 Chambers Street",
+                        "locality": "Edinburgh",
+                        "postalCode": "EH1 1LB",
+                        "countryName": "United Kingdom"
+                    },
+                    "roles": [
+                        "reviewBody"
+                    ]
+                }
+            ],
+            "buyer": {
+                "id": "GB-FTS-179412",
+                "name": "The Common Services Agency (more commonly known as Public Services Delivery Scotland) (PSD Scotland)"
+            },
+            "contracts": [
+                {
+                    "id": "061764-2026-C002198-1",
+                    "awardID": "061764-2026-C002198-1",
+                    "status": "active",
+                    "value": {
+                        "amount": 225601,
+                        "currency": "GBP"
+                    },
+                    "dateSigned": "2026-06-30T00:00:00+01:00"
+                }
+            ],
+            "links": [
+                {
+                    "rel": "canonical",
+                    "href": "https://api.publiccontractsscotland.gov.uk/v1/Notice?id=ocds-r6ebe6-0000836030"
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

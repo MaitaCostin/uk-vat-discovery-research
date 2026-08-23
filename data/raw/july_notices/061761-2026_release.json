@@ -1,0 +1,234 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061761-2026?limit=100&updatedTo=2026-08-23T12:14:35",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T13:56:12+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "buyerID": [],
+            "id": "061761-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T13:56:12+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-0648b4",
+            "parties": [
+                {
+                    "name": "Rotherham Borough Council",
+                    "id": "GB-PPON-PGYC-3376-BGQP",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PGYC-3376-BGQP"
+                    },
+                    "address": {
+                        "streetAddress": "Riverside House, Main Street",
+                        "locality": "Rotherham",
+                        "postalCode": "S60 1AE",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKE31"
+                    },
+                    "contactPoint": {
+                        "email": "procurement.people@rotherham.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.rotherham.gov.uk/",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "FIELD MANAGEMENT IRELAND (NORTHERN IRELAND)",
+                    "id": "GB-COH-FC033379",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "FC033379"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PVNV-7667-GYJG"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "18  The ormeau baths, ormeau avenue belfast BT28Hs",
+                        "locality": "Belfast",
+                        "postalCode": "BT28HS",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKN06"
+                    },
+                    "contactPoint": {
+                        "email": "libby.keeling@fmi.ie"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "http://www.fmi.ie",
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PGYC-3376-BGQP",
+                "name": "Rotherham Borough Council"
+            },
+            "tender": {
+                "id": "25-162",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Supply and Distribution of Baby Packs",
+                "description": "The Council is seeking a single provider with the capability and capacity to supply and distribute Baby Packs on its behalf.\nThis scheme involves the procurement of high‑quality items, the assembly of these items into a standardised baby pack, and the subsequent delivery of the completed packs to new mothers in Rotherham who have indicated to their midwife that they wish to receive one.\nThe appointed supplier will be required to manage and deliver up to 2,800 baby packs per year, with deliveries made directly to the mother's home address. This figure is based on birth trends over the past five years; however, annual volumes may fluctuate depending on the number of completed midwife registrations received through the scheme.\nFull details can be found within the tender documentation available to download at https://yortender.eu-supply.com/login.asp?B=YORTENDER",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Open procedure",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 3,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "finalStageBids",
+                        "value": 2,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "smeFinalStageBids",
+                        "value": 2,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "status": "active",
+                    "date": "2026-07-01T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 1968000,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "goods",
+                    "additionalProcurementCategories": [
+                        "services"
+                    ],
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-FC033379",
+                            "name": "FIELD MANAGEMENT IRELAND (NORTHERN IRELAND)"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "33750000",
+                                    "description": "Baby care products"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "63100000",
+                                    "description": "Cargo handling and storage services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKE31",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-12-03T00:00:00Z",
+                        "endDate": "2030-12-02T23:59:59Z"
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061761-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061761-2026",
+                            "datePublished": "2026-07-01T13:56:12+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-07-01T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-13T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}
