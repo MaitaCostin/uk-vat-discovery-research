@@ -1,0 +1,205 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061779-2026?limit=100&updatedTo=2026-08-23T12:53:32",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T14:09:31+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "buyerID": [],
+            "id": "061779-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T14:09:31+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-06c14a",
+            "parties": [
+                {
+                    "name": "University of Salford",
+                    "id": "GB-CHC-RC000666",
+                    "identifier": {
+                        "scheme": "GB-CHC",
+                        "id": "RC000666"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PDHR-3751-QPQR"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "43 The Crescent",
+                        "locality": "Salford",
+                        "postalCode": "M5 4WT",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKD34"
+                    },
+                    "contactPoint": {
+                        "email": "procurement-finance@salford.ac.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "THE MATHWORKS LIMITED",
+                    "id": "GB-COH-03444214",
+                    "identifier": {
+                        "scheme": "GB-COH",
+                        "id": "03444214"
+                    },
+                    "additionalIdentifiers": [
+                        {
+                            "scheme": "GB-PPON",
+                            "id": "PJYZ-5451-VPWJ"
+                        }
+                    ],
+                    "address": {
+                        "streetAddress": "1 Cambridge Science Park",
+                        "locality": "Cambridge",
+                        "postalCode": "CB4 0JL",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKH12"
+                    },
+                    "contactPoint": {
+                        "email": "jgarner@mathworks.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "url": "http://www.mathworks.co.uk",
+                        "scale": "large",
+                        "vcse": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-CHC-RC000666",
+                "name": "University of Salford"
+            },
+            "tender": {
+                "id": "ocds-h6vhtk-06c14a",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Campus Wide Suite (CWSSMS)",
+                "description": "Direct award for the University's Campus Wide Suite (CWSSMS).",
+                "status": "complete",
+                "procurementMethod": "direct",
+                "procurementMethodDetails": "Below threshold - without competition",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "status": "active",
+                    "date": "2026-07-01T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 193176.00,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": false,
+                    "suppliers": [
+                        {
+                            "id": "GB-COH-03444214",
+                            "name": "THE MATHWORKS LIMITED"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "48000000",
+                                    "description": "Software package and information systems"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "72000000",
+                                    "description": "IT services: consulting, software development, Internet and support"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKD3",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-08-01T00:00:00+01:00",
+                        "endDate": "2029-07-31T23:59:59+01:00"
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061779-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061779-2026",
+                            "datePublished": "2026-07-01T14:09:31+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-01T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

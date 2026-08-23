@@ -1,0 +1,313 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061782-2026?limit=100&updatedTo=2026-08-23T12:53:33",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T14:09:47+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "id": "061782-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T14:09:47+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-067896",
+            "parties": [
+                {
+                    "name": "United Utilities Water Limited",
+                    "id": "GB-PPON-PVVB-5589-BWHX",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PVVB-5589-BWHX"
+                    },
+                    "address": {
+                        "streetAddress": "Lingley Mere Business Park",
+                        "locality": "Warrington",
+                        "postalCode": "WA5 3LP",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKD61"
+                    },
+                    "contactPoint": {
+                        "name": "Keeley McConville",
+                        "email": "amp8procurements@uuplc.co.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.unitedutilities.com",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "privateUtility",
+                                "description": "Private utility"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Element Materials Technology Environmental UK Ltd",
+                    "id": "GB-PPON-PMBB-6894-CQTL",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PMBB-6894-CQTL"
+                    },
+                    "address": {
+                        "streetAddress": "3rd Floor Davidson Building",
+                        "locality": "London",
+                        "postalCode": "WC2E 7HA",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI32"
+                    },
+                    "contactPoint": {
+                        "name": "Katie Moss",
+                        "email": "katie.moss@element.com",
+                        "telephone": "+44 1582729222"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                },
+                {
+                    "name": "Olfasense Uk Ltd",
+                    "id": "GB-PPON-PYYH-2719-HXYT",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PYYH-2719-HXYT"
+                    },
+                    "address": {
+                        "streetAddress": "Unit 7 Anglo Office Park",
+                        "locality": "Bristol",
+                        "postalCode": "BS151NT",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKK11"
+                    },
+                    "contactPoint": {
+                        "name": "Nick Jones",
+                        "email": "njones@olfasense.com",
+                        "telephone": "+44 07887661404"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PVVB-5589-BWHX",
+                "name": "United Utilities Water Limited"
+            },
+            "tender": {
+                "id": "PRO004973",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Services-Framework-Odour Control Unit Routine Sampling",
+                "description": "United Utilities requires a framework supplier to provide 6 monthly routine, MCERTS‑compliant sampling, laboratory analysis and reporting for 24 Odour Control Units (OCUs) across 11 Industrial Emissions Directive ‑ permitted wastewater sites. Odour Control Units (OCUs) are treatment systems, and the associated assets are installed and operated by United Utilities as part of its AMP8 and AMP9 environmental obligations set out by the Environment Agency to capture and treat odorous and corrosive gases before they are released to the atmosphere.",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Competitive flexible procedure",
+                "specialRegime": [
+                    "utilities"
+                ],
+                "techniques": {
+                    "hasFrameworkAgreement": true
+                },
+                "lots": [
+                    {
+                        "id": "LOT-0000",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "PRO004973-Services-Framework-Odour Control Unit Routine Sampling",
+                    "status": "pending",
+                    "date": "2026-07-01T00:00:00Z",
+                    "value": {
+                        "amountGross": 3000000,
+                        "amount": 2400000,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PMBB-6894-CQTL",
+                            "name": "Element Materials Technology Environmental UK Ltd"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "LOT-0000",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "71900000",
+                                    "description": "Laboratory services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKD",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "LOT-0000"
+                        }
+                    ],
+                    "standstillPeriod": {
+                        "endDate": "2026-07-10T23:59:59+01:00"
+                    },
+                    "contractPeriod": {
+                        "startDate": "2026-08-01T00:00:00Z",
+                        "endDate": "2030-07-31T23:59:59+01:00",
+                        "maxExtentDate": "2035-07-31T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "Initial term of 4 years, with an extension of up to a further 5 years."
+                    },
+                    "relatedLots": [
+                        "LOT-0000"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061782-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061782-2026",
+                            "datePublished": "2026-07-01T14:09:47+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-07-01T00:00:00Z",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-17T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "title": "PRO004973-Services-Framework-Odour Control Unit Routine Sampling",
+                    "status": "pending",
+                    "date": "2026-07-01T00:00:00Z",
+                    "value": {
+                        "amountGross": 3000000,
+                        "amount": 2400000,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PYYH-2719-HXYT",
+                            "name": "Olfasense Uk Ltd"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "LOT-0000",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "71900000",
+                                    "description": "Laboratory services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKD",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "LOT-0000"
+                        }
+                    ],
+                    "standstillPeriod": {
+                        "endDate": "2026-07-10T23:59:59+01:00"
+                    },
+                    "contractPeriod": {
+                        "startDate": "2026-08-01T00:00:00Z",
+                        "endDate": "2030-07-31T23:59:59+01:00",
+                        "maxExtentDate": "2035-07-31T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "Initial term of 4 years, with an extension of up to a further 5 years."
+                    },
+                    "relatedLots": [
+                        "LOT-0000"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061782-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061782-2026",
+                            "datePublished": "2026-07-01T14:09:47+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-07-01T00:00:00Z",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-17T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

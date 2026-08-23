@@ -1,0 +1,205 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061797-2026?limit=100&updatedTo=2026-08-23T12:53:33",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+    ],
+    "publishedDate": "2026-07-01T14:17:25+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "ocid": "ocds-h6vhtk-06c164",
+            "id": "061797-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T14:17:25+01:00",
+            "initiationType": "tender",
+            "parties": [
+                {
+                    "name": "Imperial College Healthcare NHS Trust",
+                    "id": "GB-PPON-PYMN-2374-JNRY",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PYMN-2374-JNRY"
+                    },
+                    "address": {
+                        "streetAddress": "St Mary's Hospital, Praed Street",
+                        "locality": "London",
+                        "postalCode": "W2 1NY",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI32"
+                    },
+                    "contactPoint": {
+                        "email": "clcht.nwlicsps-sourcing-fm@nhs.net"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.imperial.nhs.uk",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthorityCentralGovernment",
+                                "description": "Public authority - central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "The Supply Chain Consultancy Group",
+                    "id": "GB-FTS-184073",
+                    "address": {
+                        "streetAddress": "Innovation House  Molly Millars Close",
+                        "locality": "Wokingham",
+                        "postalCode": "RG41 2RX",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKJ11"
+                    },
+                    "contactPoint": {
+                        "email": "gavin.parnell@sccgltd.com",
+                        "telephone": "07935398530"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PYMN-2374-JNRY",
+                "name": "Imperial College Healthcare NHS Trust"
+            },
+            "tender": {
+                "id": "C407979",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "ICH - FM & Logistics Hub and Spoke Feasibility",
+                "description": "Provision of feasibility services to develop the FM & Logistics Hub and Spoke model for the Trust, including appraisal of options and recommendations to support future service delivery.",
+                "status": "complete",
+                "procurementMethod": "limited",
+                "procurementMethodDetails": "Below threshold - limited competition",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete"
+                    }
+                ]
+            },
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 2,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "finalStageBids",
+                        "value": 2,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "smeFinalStageBids",
+                        "value": 2,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "ICH – FM & Logistics Hub and Spoke Feasibility",
+                    "status": "active",
+                    "date": "2026-04-09T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 120000.00,
+                        "amount": 100000.00,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": false,
+                    "suppliers": [
+                        {
+                            "id": "GB-FTS-184073",
+                            "name": "The Supply Chain Consultancy Group"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "79314000",
+                                    "description": "Feasibility study"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-07-01T00:00:00+01:00",
+                        "endDate": "2026-11-30T23:59:59Z"
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061797-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061797-2026",
+                            "datePublished": "2026-07-01T14:17:25+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-01T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

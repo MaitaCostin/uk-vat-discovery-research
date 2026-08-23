@@ -1,5 +1,3 @@
-"""Inspect awarded suppliers in a Find a Tender OCDS release package."""
-
 from __future__ import annotations
 
 import argparse
@@ -172,7 +170,7 @@ def inspect_release_package(package: dict[str, Any]) -> None:
 
 
 def main() -> None:
-    """Run the OCDS inspection."""
+
     args = parse_args()
     input_file: Path = args.input_file
 

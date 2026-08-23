@@ -100,6 +100,25 @@ A company will not be removed or replaced merely because:
 
 These are outcomes of the experiment, not valid exclusion reasons.
 
+## Notice batch construction
+
+The sampling frame will initially use the first 20 UK6 contract award notices
+published in July 2026, ordered from oldest to newest.
+
+Notice identifiers will be recorded before supplier data is extracted.
+
+No notice will be skipped because it appears incomplete, difficult, or likely
+to contain few suppliers.
+
+If the first 20 notices produce fewer than 40 eligible unique Companies House
+entities, the next 10 consecutive notices will be added.
+
+Further notices will be added in consecutive blocks of 10 until at least 40
+eligible unique companies are available.
+
+This rule prevents notices from being selected based on the availability of
+supplier websites, Companies House numbers, or VAT identifiers.
+
 ## Sample freeze
 
 Once selected, the sample will be saved in a CSV file and committed to Git.
@@ -125,3 +144,86 @@ They may be:
 
 The results will therefore describe performance on this sample and will
 not be presented as national VAT coverage.
+
+## First notice batch result
+
+The first 20 consecutive July 2026 UK6 notices were downloaded and
+processed successfully.
+
+They produced 26 awarded-supplier rows before deduplication across notices.
+
+Because the total number of supplier rows was already below the required
+sample size of 40, the batch could not contain 40 eligible unique companies.
+
+The pre-defined expansion rule was therefore triggered, and the next 10
+consecutive notices will be added.
+
+No notice or supplier was removed or replaced based on website availability,
+Companies House coverage, or VAT discoverability.
+
+## Thirty-notice batch result
+
+The first 30 consecutive July 2026 UK6 notices produced 46 awarded-supplier
+rows.
+
+Of these:
+
+- 22 rows did not contain a Companies House number;
+- 24 rows contained a Companies House number;
+- those 24 rows represented 22 unique Companies House identifiers;
+- 21 unique identifiers had a plausible eight-character format;
+- one identifier required review because of its format.
+
+The five-company manual pilot had suggested higher Companies House coverage
+than the larger batch. This demonstrated that the pilot was useful as a
+source smoke test but was too small to estimate identifier availability.
+
+Even if the identifier requiring review were later validated, the batch
+would still contain fewer than 40 eligible unique companies. The review was
+therefore deferred, and the predefined rule to add the next 10 consecutive
+notices was triggered.
+
+## Forty-notice batch result
+
+The first 40 consecutive July 2026 UK6 contract award notices produced
+124 awarded-supplier rows.
+
+Of these:
+
+- 38 rows did not contain a Companies House number;
+- 86 rows contained a Companies House number;
+- those 86 rows represented 83 unique Companies House identifiers;
+- 81 unique identifiers had a plausible eight-character format;
+- two identifiers required review.
+
+The 81 plausible unique identifiers were sufficient to construct the
+40-company sample. Notice collection was therefore stopped after the
+fortieth notice.
+
+The two identifiers requiring review were retained in the source results
+but excluded from sample selection. Investigating them could not change
+the sampling decision and would introduce unnecessary entity-resolution
+risk.
+
+Companies without a website were not excluded. Website availability is
+an outcome to be measured during VAT discovery.
+
+## Forty-notice batch result
+
+The first 40 consecutive July 2026 UK6 contract award notices produced
+124 awarded-supplier rows.
+
+Of these:
+
+- 38 rows did not contain a Companies House number;
+- 86 rows contained a Companies House number;
+- these represented 83 unique Companies House identifiers;
+- 81 identifiers had a plausible eight-character format;
+- two identifiers required review.
+
+The 81 plausible identifiers were sufficient to construct the 40-company
+sample. Notice collection was therefore stopped after the fortieth notice.
+
+The two identifiers requiring review were retained in the source results
+but excluded from sample selection because investigating them could not
+change the sampling decision.

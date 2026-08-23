@@ -1,0 +1,222 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061792-2026?limit=100&updatedTo=2026-08-23T12:53:33",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json"
+    ],
+    "publishedDate": "2026-07-01T14:15:35+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "id": "061792-2026",
+            "tag": [
+                "award",
+                "contract"
+            ],
+            "date": "2026-07-01T14:15:35+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-06a3e6",
+            "parties": [
+                {
+                    "name": "Future Generations Commissioner for Wales",
+                    "id": "GB-PPON-PYCN-2751-HJJV",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PYCN-2751-HJJV"
+                    },
+                    "address": {
+                        "streetAddress": "Tramshed Tech",
+                        "locality": "Cardiff",
+                        "postalCode": "CF11 6BH",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKL22"
+                    },
+                    "contactPoint": {
+                        "name": "Sang-Jin Park",
+                        "email": "sang-jin.park@futuregenerations.wales",
+                        "telephone": "+447780497227"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "http://www.futuregenerations.wales",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            },
+                            {
+                                "scheme": "UK_CA_DEVOLVED_REGULATIONS",
+                                "id": "GB-WLS",
+                                "description": "Welsh devolved regulations apply"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Camlas Limited",
+                    "id": "GB-PPON-PWYM-6584-BJGZ",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PWYM-6584-BJGZ"
+                    },
+                    "address": {
+                        "streetAddress": "3 Burt Street Cardiff Bay",
+                        "locality": "Cardiff",
+                        "postalCode": "CF10 5FZ",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKL22"
+                    },
+                    "contactPoint": {
+                        "email": "joe@camlas.cymru"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "large",
+                        "vcse": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PYCN-2751-HJJV",
+                "name": "Future Generations Commissioner for Wales"
+            },
+            "tender": {
+                "id": "Political Monitoring Service and Public Affairs Support ",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Political Monitoring Service and Public Affairs Support ",
+                "description": "The Office of the Future Generations Commissioner for Wales is seeking to appoint a political monitoring and public affairs service provider for a period of three years. This contract comes at a significant moment in Wales’ political landscape, as the Senedd evolves into a larger legislature. This development will create a more dynamic and vibrant political ecosystem, requiring enhanced monitoring, insight, and engagement to ensure the Commissioner remains well-informed and able to respond effectively. The Commissioner’s role spans a wide range of policy areas, reflecting the breadth of the Well-being of Future Generations (Wales) Act. The Office provides advice, guidance, and challenge to public bodies at both national and local levels, and engages proactively with political stakeholders, institutions, and partners across Wales. In this context, the appointed provider will play a critical role in supporting the Office to navigate political developments, identify risks and opportunities, and strengthen its strategic engagement. Scope of the work 1. Political Monitoring The provider will deliver a comprehensive and responsive political monitoring service, including: Timely updates on upcoming and ongoing Senedd business, including plenary sessions, debates, and statements, with a focus on issues relevant to the Well-being of Future Generations Act and the Commissioner’s priorities and missions. Rapid, reactive communication on significant political developments as they arise (from Senedd and Welsh Government). Monitoring and reporting on the activities of public bodies in relation to the Act and the Commissioner’s priorities. Analysis and assessment of political decisions, including how they are made and their potential implications for the Commissioner’s work. Identification and escalation of relevant Senedd Committee activity, ensuring that key information is shared with the Commissioner in a timely and accessible manner. 2. Senedd Engagement The provider will support structured and proactive engagement between the Commissioner and the Senedd, including: Organising up to five breakfast or policy briefing events annually with Members of the Senedd, aligned with the Commissioner’s priority areas. Please note, your proposal should set the budget and format for these. Identifying and coordinating opportunities for engagement through an annual “Y Farchnad” opportunity and other Senedd-based platforms. 3. Public Affairs The provider will support broader public affairs activity, including: Coordinating the Commissioner’s attendance and participation at Autumn and Summer Party Political Conferences, including: Securing passes and access Identifying and arranging relevant meetings and side events Providing logistical and strategic support as required The successful provider will demonstrate a strong understanding of the Welsh political landscape, excellent analytical capability, and the ability to provide clear, timely, and actionable insight to support the Commissioner’s statutory role. We invite you to share the range of other services you offer that can support our broader public affairs activity – this should be clear if this is included in the budget allocation or will incur additional charge.",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Below threshold - open competition",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete"
+                    }
+                ]
+            },
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 3,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "finalStageBids",
+                        "value": 3,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "smeFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Political Monitoring Service and Public Affairs Support",
+                    "status": "active",
+                    "date": "2026-06-29T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 21000.00,
+                        "amount": 17500.00,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": false,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PWYM-6584-BJGZ",
+                            "name": "Camlas Limited"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "73000000",
+                                    "description": "Research and development services and related consultancy services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKL22",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-07-14T00:00:00+01:00",
+                        "endDate": "2029-07-13T23:59:59+01:00"
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "documents": [
+                        {
+                            "id": "061792-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061792-2026",
+                            "datePublished": "2026-07-01T14:15:35+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-14T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}

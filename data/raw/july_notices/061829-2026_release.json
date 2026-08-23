@@ -1,0 +1,252 @@
+{
+    "uri": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/061829-2026?limit=100&updatedTo=2026-08-23T12:53:35",
+    "version": "1.1",
+    "extensions": [
+        "https://standard.open-contracting.org/profiles/eu/latest/en/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_amendment_rationale_classifications_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_budget_breakdown_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_contract_completion_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_documentation_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_pagination_extension/master/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_suitability_extension/master/extension.json",
+        "https://raw.githubusercontent.com/portaledcahn/ocds_Links_extension/main/extension.json",
+        "https://raw.githubusercontent.com/cabinetoffice/ocds_uk_extension/main/extension.json",
+        "https://raw.githubusercontent.com/open-contracting-extensions/ocds_performance_failures_extension/master/extension.json"
+    ],
+    "publishedDate": "2026-07-01T14:49:46+01:00",
+    "publisher": {
+        "name": "Cabinet Office",
+        "scheme": "GB-GOR",
+        "uid": "D2",
+        "uri": "https://www.gov.uk/government/organisations/cabinet-office"
+    },
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "publicationPolicy": "https://www.gov.uk/government/publications/open-contracting",
+    "releases": [
+        {
+            "buyerID": [],
+            "id": "061829-2026",
+            "tag": [
+                "awardUpdate",
+                "contractUpdate"
+            ],
+            "date": "2026-07-01T14:49:46+01:00",
+            "initiationType": "tender",
+            "ocid": "ocds-h6vhtk-058e41",
+            "parties": [
+                {
+                    "name": "Westminster City Council",
+                    "id": "GB-PPON-PJVD-6261-BPPJ",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PJVD-6261-BPPJ"
+                    },
+                    "address": {
+                        "streetAddress": "64 Victoria Street",
+                        "locality": "London",
+                        "postalCode": "SW1E 6QP",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKI32"
+                    },
+                    "contactPoint": {
+                        "email": "procurementteammailbox@westminster.gov.uk"
+                    },
+                    "roles": [
+                        "buyer"
+                    ],
+                    "details": {
+                        "url": "https://www.westminster.gov.uk/",
+                        "classifications": [
+                            {
+                                "scheme": "UK_CA_TYPE",
+                                "id": "publicAuthoritySubCentralGovernment",
+                                "description": "Public authority - sub-central government"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Arcus Global Limited",
+                    "id": "GB-PPON-PRWV-8165-MVWQ",
+                    "identifier": {
+                        "scheme": "GB-PPON",
+                        "id": "PRWV-8165-MVWQ"
+                    },
+                    "address": {
+                        "streetAddress": "Future Business Centre, Kings Hedges Road",
+                        "locality": "Cambridge",
+                        "postalCode": "CB4 2HY",
+                        "country": "GB",
+                        "countryName": "United Kingdom",
+                        "region": "UKH12"
+                    },
+                    "contactPoint": {
+                        "email": "sales@arcusglobal.com"
+                    },
+                    "roles": [
+                        "supplier"
+                    ],
+                    "details": {
+                        "scale": "sme",
+                        "vcse": false,
+                        "publicServiceMissionOrganization": false,
+                        "shelteredWorkshop": false
+                    }
+                }
+            ],
+            "buyer": {
+                "id": "GB-PPON-PJVD-6261-BPPJ",
+                "name": "Westminster City Council"
+            },
+            "tender": {
+                "id": "P280 / PRJ_30038",
+                "legalBasis": {
+                    "id": "2023/54",
+                    "scheme": "UKPGA",
+                    "uri": "https://www.legislation.gov.uk/ukpga/2023/54/contents"
+                },
+                "title": "Planning, Building Control and Licensing Back Office Applications",
+                "description": "Westminster City Council are procuring a back-office line of business system solution, to support key service areas in their day-to-day operations to cover Planning, Bulding Control and Licensing. The contract will be for an initial period of 3 years, with the option to extend for 1 additional year (at the Council's discretion).",
+                "status": "complete",
+                "procurementMethod": "open",
+                "procurementMethodDetails": "Open procedure",
+                "lots": [
+                    {
+                        "id": "1",
+                        "status": "complete",
+                        "description": null
+                    }
+                ]
+            },
+            "bids": {
+                "statistics": [
+                    {
+                        "id": "1",
+                        "measure": "bids",
+                        "value": 5,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "2",
+                        "measure": "finalStageBids",
+                        "value": 3,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "3",
+                        "measure": "smeFinalStageBids",
+                        "value": 3,
+                        "relatedLot": "1"
+                    },
+                    {
+                        "id": "4",
+                        "measure": "vcseFinalStageBids",
+                        "value": 0,
+                        "relatedLot": "1"
+                    }
+                ]
+            },
+            "awards": [
+                {
+                    "id": "1",
+                    "title": "Gazetteer, Planning/Building Control and Licensing Back Office Applications",
+                    "status": "active",
+                    "date": "2026-06-22T00:00:00+01:00",
+                    "value": {
+                        "amountGross": 575570.69,
+                        "amount": 479642.24,
+                        "currency": "GBP"
+                    },
+                    "mainProcurementCategory": "services",
+                    "aboveThreshold": true,
+                    "suppliers": [
+                        {
+                            "id": "GB-PPON-PRWV-8165-MVWQ",
+                            "name": "Arcus Global Limited"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "1",
+                            "additionalClassifications": [
+                                {
+                                    "scheme": "CPV",
+                                    "id": "48450000",
+                                    "description": "Time accounting or human resources software package"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "48500000",
+                                    "description": "Communication and multimedia software package"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "48451000",
+                                    "description": "Enterprise resource planning software package"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "48000000",
+                                    "description": "Software package and information systems"
+                                },
+                                {
+                                    "scheme": "CPV",
+                                    "id": "72212480",
+                                    "description": "Sales, marketing and business intelligence software development services"
+                                }
+                            ],
+                            "deliveryAddresses": [
+                                {
+                                    "region": "UKI32",
+                                    "country": "GB",
+                                    "countryName": "United Kingdom"
+                                }
+                            ],
+                            "relatedLot": "1"
+                        }
+                    ],
+                    "contractPeriod": {
+                        "startDate": "2026-09-01T00:00:00+01:00",
+                        "endDate": "2029-08-31T23:59:59+01:00",
+                        "maxExtentDate": "2030-08-31T23:59:59+01:00"
+                    },
+                    "hasRenewal": true,
+                    "renewal": {
+                        "description": "1 x optional 12 month extension at the Council's discretion."
+                    },
+                    "relatedLots": [
+                        "1"
+                    ],
+                    "amendments": [
+                        {
+                            "description": "Please note that the standstill period due to end at 11.59pm on Wednesday 1st July 2026 has been extended. The standstill period will now end at 11.59pm on Friday 10th July 2026.",
+                            "id": "061829-2026"
+                        }
+                    ],
+                    "documents": [
+                        {
+                            "id": "061829-2026",
+                            "documentType": "awardNotice",
+                            "noticeType": "UK6",
+                            "description": "Contract award notice on Find a Tender",
+                            "url": "https://www.find-tender.service.gov.uk/Notice/061829-2026",
+                            "datePublished": "2026-07-01T14:49:46+01:00",
+                            "format": "text/html"
+                        }
+                    ],
+                    "assessmentSummariesDateSent": "2026-06-22T00:00:00+01:00",
+                    "milestones": [
+                        {
+                            "id": "1",
+                            "type": "futureSignatureDate",
+                            "dueDate": "2026-07-13T23:59:59+01:00",
+                            "status": "scheduled"
+                        }
+                    ]
+                }
+            ],
+            "language": "en"
+        }
+    ]
+}
