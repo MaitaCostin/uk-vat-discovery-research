@@ -6,10 +6,10 @@ I built a sample from awarded suppliers in 40 consecutive Find a Tender contract
 
 The main results were:
 
--5 verified VAT relationships from 40 companies;
--3 verified relationships from the 30-company holdout, giving a 10.0% holdout yield;
--6 VAT candidates found in total;
--1 of the 6 valid candidates belonged to different company
+- 5 verified VAT relationships from 40 companies;
+- 3 verified relationships from the 30-company holdout, giving a 10.0% holdout yield;
+- 6 VAT candidates found in total;
+- 1 of the 6 valid candidates belonged to different company
 
 The incorrect candidate was really important. It published a VAT number on its official Legal Notice beside the correct company information. HMRC confirmed that the number was valid, but returned another company. This produced an observed candidate-level false-positive rate of 1/6 = 16.7%
 
@@ -57,7 +57,7 @@ I searched for "PXVL-8974-LQTM", both with and without quotation marks, using Fi
 
 I then downloaded the OCDS release for the same notice. The JSON contained the PPON as a structured `GB-PPON` identifier linked to the correct supplier, but it did not contain a `GB-COH` identifier for that company.
 
-I didn't thought that PPON was useless. The results showed that PPON was still available for structured extraction and deduplication and the tested release did not recover the missing Companies House number.
+I did not thought that PPON was useless. The results showed that PPON was still available for structured extraction and deduplication and the tested release did not recover the missing Companies House number.
 
 ## 4. VAT Discovery Sources
 
@@ -349,12 +349,12 @@ I would not release a VAT relationship based only on:
 The scripts use Python's standard library and require no third-party packages.
 
 Run them from the repository root in this order:
--powershell
--python .\src\download_notices.py
--python .\src\extract_awarded_suppliers.py
--python .\src\summarize_sampling_frame.py
--python .\src\freeze_sample.py
--python .\src\compute_metrics.py
+powershell
+python .\src\download_notices.py
+python .\src\extract_awarded_suppliers.py
+python .\src\summarize_sampling_frame.py
+python .\src\freeze_sample.py
+python .\src\compute_metrics.py
 
 
 The pipeline is:
@@ -398,8 +398,8 @@ uk-vat-discovery-research/
 │       ├── holdout_vat_results.csv
 │       └── metrics_summary.csv
 ├── logs/
-│   └── experiment_log.csv
-└── evidence/
+    └── experiment_log.csv
+
 
 
 data/raw contains source data as downloaded.
